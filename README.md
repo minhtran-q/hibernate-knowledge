@@ -2,6 +2,24 @@
 ## Core
 ### Persistence Context
 ### Automatic dirty checking
+### Inheritance
+
+Inheritance is one of the most important of object-oriented principles. 
+
+<details>
+  <summary>Types of inheritance strategy</summary>
+  <br/>
+  
+  + MappedSuperclass – the parent classes, can't be entities
+  + Single Table – The entities from different classes with a common ancestor are placed in a single table.
+  + Joined Table – Each class has its table, and querying a subclass entity requires joining the tables.
+  + Table per Class – All the properties of a class are in its table, so no join is required.
+  
+  Ref: https://www.baeldung.com/hibernate-inheritance
+  
+</details>
+
+
 ## Common pitfalls
 ### LazyInitializationException
 
