@@ -28,7 +28,7 @@
       books.size();
   }
   ```
-  
+
   Ref: https://thorben-janssen.com/lazyinitializationexception/#:~:text=Hibernate%20throws%20the%20LazyInitializationException%20when,client%20application%20or%20web%20layer.
   
 </details>
@@ -74,8 +74,18 @@
       .getSingleResult();
   }
   ```
+  _Query_
   
-  
+  ```
+  SELECT *
+  FROM employee
+
+  // trigger the N+1 query issue
+  SELECT * FROM company c WHERE c.id = 1
+  SELECT * FROM company c WHERE c.id = 2
+  SELECT * FROM company c WHERE c.id = 3
+  SELECT * FROM company c WHERE c.id = 4
+  ```
   Ref: https://vladmihalcea.com/n-plus-1-query-problem/
 </details>
 <details>
