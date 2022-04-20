@@ -4,7 +4,7 @@
 ### Automatic dirty checking
 ### Inheritance
 
-Inheritance is one of the most important of object-oriented principles. 
+Inheritance is one of the most important of object-oriented principles. But the relational databases do not support inheritance. Hibernate’s Inheritance Mapping strategies deal with this issue.
 
 <details>
   <summary>Types of inheritance strategy</summary>
@@ -17,6 +17,31 @@ Inheritance is one of the most important of object-oriented principles.
   
   Ref: https://www.baeldung.com/hibernate-inheritance
   
+</details>
+
+<details>
+  <summary>MappedSuperclass</summary>
+  <br/>
+  
+  ```
+  @MappedSuperclass // not an entity
+  public class Person {
+
+      @Id
+      private long personId;
+      private String name;
+
+      // constructor, getters, setters
+  }
+  ```
+  ```
+  @Entity
+  public class MyEmployee extends Person {
+      private String company;
+      // constructor, getters, setters 
+  }
+  ```
+  In the database, MyEmployee table with three columns for the declared and inherited fields of the subclass.
 </details>
 
 
