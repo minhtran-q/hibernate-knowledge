@@ -2,4 +2,4 @@
 ## Core
 ### Persistence Context
 ### Automatic dirty checking
-### Pitfalls
+### Common pitfalls
