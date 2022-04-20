@@ -91,8 +91,19 @@
 <details>
   <summary>Solution</summary>
   <br/>
+  All we need to do is extract all the data you need in the original SQL query
   
-  
-  
+  ```
+  List<Employee> employees = entityManager.createNativeQuery("""
+      SELECT *
+      FROM employee emp
+      JOIN company c ON emp.company_id = c.id
+      """, Employee.class)
+  .getResultList();
+
+  for (Employee employee : employees) {
+      LOGGER.info("{}", employee);
+  }
+  ```
 </details>  
 
