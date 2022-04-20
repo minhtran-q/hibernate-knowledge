@@ -42,5 +42,47 @@
 </details>
 
 ### N+1 query problem
+<details>
+  <summary>Root cause</summary>
+  <br/>
+  
+  The N+1 query problem happens when the data access framework executed N additional SQL statements to fetch the same data that could have been retrieved when executing the primary SQL query.
+  
+  _For example:_
+  We have a relationship `one-to-many` company -> employees. 
+  
+  If we select all employees in the database.
+  ```
+  List<Employee> comments = entityManager.createNativeQuery("""
+      SELECT * 
+      FROM employee
+      """, Employee.class)
+  .getResultList(); 
+  ```
+  And, laster, we decide to fetch associated `company` for each employee.
+  
+  ```
+  for (Employee employee : employees) {
+      Long employeeId = ((Number) comment.get("employeeId")).longValue();
 
+      Company company = (String) entityManager.createNativeQuery("""
+          SELECT *
+          FROM company c
+          WHERE c.id = :employeeId
+          """, Company.class)
+      .setParameter("employeeId", employeeId)
+      .getSingleResult();
+  }
+  ```
+  
+  
+  Ref: https://vladmihalcea.com/n-plus-1-query-problem/
+</details>
+<details>
+  <summary>Solution</summary>
+  <br/>
+  
+  
+  
+</details>  
 
