@@ -18,7 +18,34 @@ Inheritance is one of the most important of object-oriented principles. But the 
   Ref: https://www.baeldung.com/hibernate-inheritance
   
 </details>
-
+<details>
+  <summary>MappedSuperclass</summary>
+  <br/>
+  
+  ![](images/mapped-super-class.png)
+  
+</details>
+<details>
+  <summary>Single Table</summary>
+  <br/>
+  
+  ![](images/single_table.png)
+  
+</details>
+<details>
+  <summary>Joined Table</summary>
+  <br/>
+  
+  ![](images/sub_join_class.png)
+  
+</details>
+<details>
+  <summary>Table per Class</summary>
+  <br/>
+  
+  ![](images/table-per-class.png)
+  
+</details>
 
 ## Common pitfalls
 ### LazyInitializationException
