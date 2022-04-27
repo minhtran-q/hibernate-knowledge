@@ -88,6 +88,17 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
 </details>
 
+### Map Associations
+
+<details>
+  <summary>Types of associations</summary>
+  <br/>
+  
+  
+  
+</details>
+
+
 ## Common pitfalls
 ### LazyInitializationException
 
