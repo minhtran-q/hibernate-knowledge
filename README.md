@@ -1,6 +1,35 @@
 # Hibernate knowledge
 ## Core
 ### Persistence Context
+
+A persistence context is a set of entity instances. Within the persistence context, the entity instances and their lifecycle are managed.
+
+<details>
+  <summary></summary>
+  <br/>
+  
+  
+  
+</details>
+
+<details>
+  <summary>Persistent Context and Session</summary>
+  <br/>
+  
+  
+  
+</details>
+
+### Entity lifecycle
+
+<details>
+  <summary>Overview</summary>
+  <br/>
+  
+  ![](images/hibernate-entity-lifecycle.jpg)
+  
+</details>
+
 ### Automatic dirty checking
 ### Inheritance
 
