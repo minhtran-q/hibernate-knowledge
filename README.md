@@ -153,6 +153,36 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>ManyToMany</summary>
   <br/>
   
+  It’s not a good idea to use the java.util.List for @ManyToMany JPA associations. Instead of a List, we can use a Set.
+  
+  ```
+  @Entity(name = "post")
+  public class Post {
+  
+      @ManyToMany(cascade = {
+          CascadeType.PERSIST,
+          CascadeType.MERGE
+      })
+      @JoinTable(name = "post_tag",
+          joinColumns = @JoinColumn(name = "post_id"),
+          inverseJoinColumns = @JoinColumn(name = "tag_id")
+      )
+      private Set<Tag> tags = new TreeSet<>();
+      ...
+  }
+  ```
+  
+  ```
+  @Entity(name = "tag")
+  public class Tag {
+
+      @ManyToMany(mappedBy = "tags")
+      private Set<Post> posts = new TreeSet<>();
+      ...
+  }
+  ```
+  
+  Ref: https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/
 </details>
 
 ### Logging
