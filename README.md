@@ -105,6 +105,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
 
 
 ## Common pitfalls
+### Performance issues
 ### LazyInitializationException
 
 <details>
