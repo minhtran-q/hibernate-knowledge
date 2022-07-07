@@ -137,14 +137,17 @@ Inheritance is one of the most important of object-oriented principles. But the 
   Ref: https://vladmihalcea.com/the-best-way-to-map-a-onetoone-relationship-with-jpa-and-hibernate/
 </details>
 <details>
-  <summary>OneToMany</summary>
+  <summary>OneToMany & ManyToOne</summary>
   <br/>
   
-</details>
-<details>
-  <summary>ManyToOne</summary>
-  <br/>
+  `@ManyToOne` might be just enough. It does not mean this should be the default option for every one-to-many database relationship.
   
+  In reality, `@OneToMany` is practical only when many means few.
+  
+  Note: If not careful, `@ManyToOne` can cause _n+1 select issue_
+  
+  Ref: https://vladmihalcea.com/the-best-way-to-map-a-onetomany-association-with-jpa-and-hibernate/  
+  Ref: https://thorben-janssen.com/best-practices-many-one-one-many-associations-mappings/#Avoid_the_mapping_of_huge_to-many_associations
 </details>
 <details>
   <summary>ManyToMany</summary>
