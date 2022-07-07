@@ -154,7 +154,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <br/>
   
 </details>
-
+### Logging
 ## Common pitfalls
 ### Performance issues
 ### LazyInitializationException
