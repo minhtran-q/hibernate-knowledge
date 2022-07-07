@@ -146,8 +146,8 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
   Note: If not careful, `@ManyToOne` can cause _n+1 select issue_
   
-  Ref: https://vladmihalcea.com/the-best-way-to-map-a-onetomany-association-with-jpa-and-hibernate/  
-  Ref: https://thorben-janssen.com/best-practices-many-one-one-many-associations-mappings/#Avoid_the_mapping_of_huge_to-many_associations
+  + Ref: https://vladmihalcea.com/the-best-way-to-map-a-onetomany-association-with-jpa-and-hibernate/  
+  + Ref: https://thorben-janssen.com/best-practices-many-one-one-many-associations-mappings/#Avoid_the_mapping_of_huge_to-many_associations
 </details>
 <details>
   <summary>ManyToMany</summary>
@@ -182,7 +182,8 @@ Inheritance is one of the most important of object-oriented principles. But the 
   }
   ```
   
-  Ref: https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/
+  + Ref: https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/
+  + Ref: https://thorben-janssen.com/best-practices-for-many-to-many-associations-with-hibernate-and-jpa/
 </details>
   
 ### Cascade
