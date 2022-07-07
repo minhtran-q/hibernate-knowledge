@@ -154,7 +154,17 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <br/>
   
 </details>
+
 ### Logging
+
+<details>
+  <summary>Hibernate logging</summary>
+  <br/>
+  
+  Ref: https://vladmihalcea.com/the-best-way-to-log-jdbc-statements/
+  
+</details>
+
 ## Common pitfalls
 ### Performance issues
 ### LazyInitializationException
