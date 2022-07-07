@@ -153,7 +153,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>ManyToMany</summary>
   <br/>
   
-  It’s not a good idea to use the java.util.List for @ManyToMany JPA associations. Instead of a List, we can use a Set.
+  You should never use a `List` if you model a `Many-to-Many` association. Instead of a `List`, we can use a `Set`.
   
   ```
   @Entity(name = "post")
