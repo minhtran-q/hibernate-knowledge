@@ -109,6 +109,32 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>OneToOne</summary>
   <br/>
   
+  PK and FK columns are most often indexed, so sharing the PK can reduce the index footprint by half, which is desirable since you want to store all your indexes into memory to speed up index scanning. And EAGER fetching is bad.
+  
+  The best way to map a `@OneToOne` relationship is to use `@MapsId`. (use the `@JoinColumn` to customize the key name)
+  
+  While the unidirectional `@OneToOne` association can be fetched lazily, the parent-side of a bidirectional `@OneToOne` association is not.
+  
+  ```
+  @Entity(name = "management")
+  public class ManagementEntity implements Serializable {
+
+      private static final long serialVersionUID = -495703064152328044L;
+
+      @OneToOne(fetch = FetchType.LAZY, orphanRemoval = true)
+      @JoinColumn(name = "data_id")
+      @MapsId
+      private DataEntity dataEntity;
+
+      @Id
+      @Column(name = "management_id")
+      private Long managementId; // You’ll notice that the @Id column no longer uses a @GeneratedValue annotation since the identifier is populated with the identifier of the DataEntity association.
+      
+      ...
+  }
+  ```
+  
+  Ref: https://vladmihalcea.com/the-best-way-to-map-a-onetoone-relationship-with-jpa-and-hibernate/
 </details>
 <details>
   <summary>OneToMany</summary>
