@@ -99,10 +99,32 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Types of associations</summary>
   <br/>
   
-  
+  + OneToOne
+  + OneToMany
+  + ManyToOne
+  + ManyToMany
   
 </details>
-
+<details>
+  <summary>OneToOne</summary>
+  <br/>
+  
+</details>
+<details>
+  <summary>OneToMany</summary>
+  <br/>
+  
+</details>
+<details>
+  <summary>ManyToOne</summary>
+  <br/>
+  
+</details>
+<details>
+  <summary>ManyToMany</summary>
+  <br/>
+  
+</details>
 
 ## Common pitfalls
 ### Performance issues
