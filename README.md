@@ -199,22 +199,23 @@ Inheritance is one of the most important of object-oriented principles. But the 
 </details>
   
 ### Cascade
-  <details>
-    <summary>Cascading best practices</summary>
-    <br/>
-
-    Cascading only makes sense only for Parent – Child associations (the Parent entity state transition being cascaded to its Child entities). Cascading from Child to Parent is not very useful and usually, it’s a mapping code smell.
-
-    Ref: https://vladmihalcea.com/a-beginners-guide-to-jpa-and-hibernate-cascade-types/
-
-  </details>
-  <details>
-  <summary>One-To-One</summary>
+<details>
+  <summary>Cascading best practices</summary>
   <br/>
-  
-    
-  
-  </details>
+
+  + Cascading only makes sense only for Parent – Child associations (the Parent entity state transition being cascaded to its Child entities). 
+  + Cascading from Child to Parent is not very useful and usually, it’s a mapping code smell.
+
+  Ref: https://vladmihalcea.com/a-beginners-guide-to-jpa-and-hibernate-cascade-types/
+
+</details>
+<details>
+<summary>One-To-One</summary>
+<br/>
+
+
+
+</details>
 
 ### Logging
 
