@@ -217,7 +217,21 @@ Inheritance is one of the most important of object-oriented principles. But the 
 </details>
 
 ## Common pitfalls
-### Performance issues
+### Avoid CascadeType.REMOVE for to-many associations
+<details>
+  <summary>Root cause</summary>
+  <br/>
+  
+  
+  
+</details>
+<details>
+  <summary>Solution</summary>
+  <br/>
+  
+  Ref: https://thorben-janssen.com/avoid-cascadetype-delete-many-assocations/
+</details>
+  
 ### LazyInitializationException
 
 <details>
