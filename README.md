@@ -114,6 +114,8 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + ManyToOne
   + ManyToMany
   
+  ![](images/relationships.png)
+  
 </details>
 <details>
   <summary>OneToOne</summary>
