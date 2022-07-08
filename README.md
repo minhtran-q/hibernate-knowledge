@@ -199,7 +199,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + Ref: https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/
   + Ref: https://thorben-janssen.com/best-practices-for-many-to-many-associations-with-hibernate-and-jpa/
 </details>
-  
+
 ### Cascade
 <details>
   <summary>Cascading best practices</summary>
@@ -215,10 +215,16 @@ Inheritance is one of the most important of object-oriented principles. But the 
 <summary>One-To-One</summary>
 <br/>
 
-
-
 </details>
 
+### DTO
+<details>
+  <summary>How to use DTO?</summary>
+  <br/>
+
+  Ref: https://thorben-janssen.com/dto-projections/
+  
+</details>
 ### Logging
 
 <details>
@@ -238,6 +244,13 @@ Inheritance is one of the most important of object-oriented principles. But the 
   Ref: https://thorben-janssen.com/tips-to-boost-your-hibernate-performance/
   
 </details>
+<details>
+  <summary>DTO projections</summary>
+  <br/>
+  
+  Ref: https://thorben-janssen.com/entities-dtos-use-projection/
+</details>  
+ 
  
 ## Common pitfalls
 ### Avoid CascadeType.REMOVE for to-many associations
