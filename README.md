@@ -225,8 +225,8 @@ Inheritance is one of the most important of object-oriented principles. But the 
   Ref: https://thorben-janssen.com/dto-projections/
   
 </details>
+  
 ### Logging
-
 <details>
   <summary>Hibernate logging</summary>
   <br/>
@@ -241,7 +241,8 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Overview</summary>
   <br/>
   
-  Ref: https://thorben-janssen.com/tips-to-boost-your-hibernate-performance/
+  + Ref: https://vladmihalcea.com/hibernate-performance-tuning-tips/
+  + Ref: https://thorben-janssen.com/tips-to-boost-your-hibernate-performance/
   
 </details>
 <details>
