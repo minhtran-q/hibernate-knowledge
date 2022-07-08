@@ -10,6 +10,13 @@
   
 </details>
 
+<details>
+  <summary>JPA standard</summary>
+  <br/>
+  
+  
+  
+</details>
 
 <details>
   <summary>JPA vs Hibernate</summary>
@@ -18,6 +25,9 @@
   ![](images/hibernate-jpa.png)
   
 </details>
+
+### Pros & cons (vs JBDC)
+
 
 
 ### Persistence Context
@@ -216,6 +226,16 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
 </details>
 
+### Performance review
+
+<details>
+  <summary>Overview</summary>
+  <br/>
+  
+  Ref: https://thorben-janssen.com/tips-to-boost-your-hibernate-performance/
+  
+</details>
+ 
 ## Common pitfalls
 ### Avoid CascadeType.REMOVE for to-many associations
 <details>
