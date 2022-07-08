@@ -155,6 +155,8 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
   You should never use a `List` if you model a `Many-to-Many` association. Instead of a `List`, we can use a `Set`.
   
+  Avoid the CascadeTypes REMOVE and ALL, which includes REMOVE
+  
   ```
   @Entity(name = "post")
   public class Post {
