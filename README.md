@@ -14,16 +14,22 @@
   <summary>JPA standard</summary>
   <br/>
   
-  
+
   
 </details>
 
 <details>
-  <summary>JPA vs Hibernate</summary>
+  <summary>JPA and Hibernate</summary>
   <br/>
   
   ![](images/hibernate-jpa.png)
   
+  JPA architecture | Hibernate architecture | 
+  --- | --- |
+  EntityManagerFactory | SessionFactory |
+  EntityTransaction | Transaction |
+  EntityManager | Session |
+
 </details>
 
 ### Pros & cons (vs JBDC)
