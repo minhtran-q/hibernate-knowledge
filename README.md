@@ -41,6 +41,17 @@
 A persistence context is a set of entity instances. Within the persistence context, the entity instances and their lifecycle are managed.
 
 <details>
+  <summary>Persistence Context Type</summary>
+  <br/>
+    
+  Persistence contexts are available in two types:
+
+  + Transaction-scoped persistence context (default)
+  + Extended-scoped persistence context
+
+</details>
+
+<details>
   <summary>Persistent Context and Session</summary>
   <br/>
   
