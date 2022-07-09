@@ -64,6 +64,10 @@ A persistence context is a set of entity instances. Within the persistence conte
   
   For managed entities, Hibernate can auto-detect incoming changes and schedule SQL UPDATES. This mechanism is called automatic dirty checking.
   
+  ![](images/defaultflusheventflow.png)
+  
+  _At flush time (commit)_
+  
   Ref: https://www.codementor.io/@narendrasharma95ns/life-cycle-of-an-entity-object-dirty-checking-in-hibernate-lvh1dh5jz
   
 </details>
