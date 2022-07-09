@@ -261,6 +261,19 @@ Inheritance is one of the most important of object-oriented principles. But the 
 
 </details>
 
+### Optimistic vs. Pessimistic Locking
+<details>
+  <summary>Optimistic locking</summary>
+  <br/>
+  
+  + Ref: https://vladmihalcea.com/optimistic-vs-pessimistic-locking/
+</details>
+<details>
+  <summary>Pessimistic locking</summary>
+  <br/>
+  
+</details>
+  
 ### DTO
 <details>
   <summary>How to use DTO?</summary>
