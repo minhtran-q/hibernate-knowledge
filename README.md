@@ -11,10 +11,12 @@
 </details>
 
 <details>
-  <summary>JPA standard</summary>
+  <summary>JPA vs ORM</summary>
   <br/>
   
-
+  **ORM:** Object Relational Mapping is concept/process of converting the data from Object oriented language to relational DB and vice versa.
+  
+  **JPA:** The Java Persistence API is a Java specification. JPA is now considered the standard approach for Object to Relational Mapping (ORM).
   
 </details>
 
