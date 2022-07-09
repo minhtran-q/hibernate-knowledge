@@ -58,6 +58,16 @@ A persistence context is a set of entity instances. Within the persistence conte
 </details>
 
 ### Automatic dirty checking
+<details>
+  <summary>Explain</summary>
+  <br/>
+  
+  For managed entities, Hibernate can auto-detect incoming changes and schedule SQL UPDATES. This mechanism is called automatic dirty checking.
+  
+  Ref: https://www.codementor.io/@narendrasharma95ns/life-cycle-of-an-entity-object-dirty-checking-in-hibernate-lvh1dh5jz
+  
+</details>
+
 ### Inheritance
 
 Inheritance is one of the most important of object-oriented principles. But the relational databases do not support inheritance. Hibernate’s Inheritance Mapping strategies deal with this issue.
