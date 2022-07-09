@@ -45,7 +45,7 @@ A persistence context is a set of entity instances. Within the persistence conte
   <br/>
   
   + **Persistent Context** is a run time memory area where Hibernate holds the references of objects. At runtime whenever a session is opened and closed, between those open and close boundaries Hibernate maintains the object in a **Persistence Context**.
-  + **Session** provides API to interact with the objects. Some APIs are provided by **Session**:
+  + **Session** provides API to interact with the objects. Some APIs are provided by **Session**: _(session -> entities)_
     + Basic CRUD operation
     + Query Execution
     + Control of Transaction
