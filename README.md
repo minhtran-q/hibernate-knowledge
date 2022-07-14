@@ -153,10 +153,10 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Identify type</summary>
   <br/>
   
-  + Auto: 
-  + Identity: 
-  + Sequence: 
-  + Table: 
+  + **Auto:** Let Hibernate pick one of the following strategies.
+  + **Identity:** Use an autoincremented database columns.
+  + **Sequence:** Use a database sequence.
+  + **Table:** Use a database table to simulate a sequence.
   
 </details>
 <details>
