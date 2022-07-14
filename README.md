@@ -147,6 +147,29 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
 </details>
 
+### Identifiers
+
+<details>
+  <summary>Auto</summary>
+  <br/>
+  
+</details>
+<details>
+  <summary>Identity</summary>
+  <br/>
+  
+</details>
+<details>
+  <summary>Sequence</summary>
+  <br/>
+  
+</details>
+<details>
+  <summary>Table</summary>
+  <br/>
+  
+</details>
+
 ### Map Associations
 
 <details>
