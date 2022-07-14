@@ -158,6 +158,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + **Sequence:** Use a database sequence.
   + **Table:** Use a database table to simulate a sequence.
   
+  Ref: https://thorben-janssen.com/primary-key-mappings-jpa-hibernate/
 </details>
 <details>
   <summary>Identity vs Sequence</summary>
@@ -168,6 +169,16 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Graps of the Primary key when rollback the transactions</summary>
   <br/>
   
+  
+  + Ref: https://stackoverflow.com/questions/449346/mysql-auto-increment-does-not-rollback
+  + Ref: https://stackoverflow.com/questions/22787153/gaps-in-the-sequence-values-generated-by-jpa-generatedvalue-with-postgresql
+  + Ref: https://stackoverflow.com/questions/20636144/are-jpa-and-hibernate-entity-identifiers-reset-to-null-after-a-rollback/67401366#67401366
+</details>
+<details>
+  <summary>Why does Hibernate disable INSERT batching when using an IDENTITY?</summary>
+  <br/>
+  
+  + Ref: https://stackoverflow.com/questions/27697810/why-does-hibernate-disable-insert-batching-when-using-an-identity-identifier-gen
 </details>
 
 ### Map Associations
