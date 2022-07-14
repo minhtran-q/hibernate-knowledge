@@ -150,22 +150,22 @@ Inheritance is one of the most important of object-oriented principles. But the 
 ### Identifiers
 
 <details>
-  <summary>Auto</summary>
+  <summary>Identify type</summary>
+  <br/>
+  
+  + Auto: 
+  + Identity: 
+  + Sequence: 
+  + Table: 
+  
+</details>
+<details>
+  <summary>Identity vs Sequence</summary>
   <br/>
   
 </details>
 <details>
-  <summary>Identity</summary>
-  <br/>
-  
-</details>
-<details>
-  <summary>Sequence</summary>
-  <br/>
-  
-</details>
-<details>
-  <summary>Table</summary>
+  <summary>Graps of the Primary key when rollback the transactions</summary>
   <br/>
   
 </details>
