@@ -7,8 +7,13 @@ spring:
   jpa:
     open-in-view: false
     hibernate.ddl-auto: update
+#    hibernate.ddl-auto: create-drop
     properties:
       hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+      hibernate.jdbc.batch_size: 5 # Hibernate will silently disable batch inserts if we use GenerationType.IDENTITY
+      hibernate.order_inserts: true
+      hibernate.order_updates: true
+      hibernate.batch_versioned_data: true 
 logging.level:
   org.hibernate.type.descriptor.sql: trace
   logger.org.hibernate.SQL: debug

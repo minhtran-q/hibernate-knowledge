@@ -2,6 +2,7 @@ package vn.hibernateknowledge.hibernateorm.infrastructure.entities;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -13,7 +14,8 @@ public class DataEntity implements Serializable{
     private static final long serialVersionUID = -3072713753777744412L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "data_sequence")
+//    @Column(name = "data_id")
     private Long id;
     
     private String data1;
@@ -23,14 +25,6 @@ public class DataEntity implements Serializable{
     private String data3;
     
     private String data4;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getData1() {
         return data1;

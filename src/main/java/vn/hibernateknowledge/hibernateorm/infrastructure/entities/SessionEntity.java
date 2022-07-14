@@ -6,6 +6,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -16,7 +17,7 @@ public class SessionEntity implements Serializable {
     private static final long serialVersionUID = -5687634074129094497L;
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "session_sequence")
     private Long id;
 
     @ManyToOne(fetch = FetchType.LAZY)
@@ -27,18 +28,10 @@ public class SessionEntity implements Serializable {
     private String username;
 
     @Column(name = "start_time")
-    private String startTime;
+    private long startTime;
 
     @Column(name = "end_time")
-    private String endTime;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
+    private long endTime;
 
     public ManagementEntity getManagementEntity() {
         return managementEntity;
@@ -56,19 +49,19 @@ public class SessionEntity implements Serializable {
         this.username = username;
     }
 
-    public String getStartTime() {
+    public long getStartTime() {
         return startTime;
     }
 
-    public void setStartTime(String startTime) {
+    public void setStartTime(long startTime) {
         this.startTime = startTime;
     }
 
-    public String getEndTime() {
+    public long getEndTime() {
         return endTime;
     }
 
-    public void setEndTime(String endTime) {
+    public void setEndTime(long endTime) {
         this.endTime = endTime;
     }
 
