@@ -15,7 +15,7 @@ public class DataEntity implements Serializable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "data_sequence")
-//    @Column(name = "data_id")
+    @Column(name = "data_id")
     private Long id;
     
     private String data1;

@@ -2,7 +2,6 @@ package vn.hibernateknowledge.hibernateorm.infrastructure.entities;
 
 import java.io.Serializable;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -16,8 +15,7 @@ public class ManagementEntity implements Serializable {
 
     private static final long serialVersionUID = -495703064152328044L;
 
-    @OneToOne(fetch = FetchType.LAZY, orphanRemoval = true, cascade = { CascadeType.PERSIST, CascadeType.DETACH,
-            CascadeType.MERGE, CascadeType.REFRESH })
+    @OneToOne(fetch = FetchType.LAZY, orphanRemoval = true)
     @JoinColumn(name = "management_id")
     @MapsId
     private DataEntity dataEntity;
@@ -39,14 +37,6 @@ public class ManagementEntity implements Serializable {
 
     public void setDataEntity(DataEntity dataEntity) {
         this.dataEntity = dataEntity;
-    }
-
-    public Long getManagementId() {
-        return managementId;
-    }
-
-    public void setManagementId(Long managementId) {
-        this.managementId = managementId;
     }
 
     public String getStatus() {
