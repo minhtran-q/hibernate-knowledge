@@ -156,7 +156,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + **Auto:** Let Hibernate pick one of the following strategies.
   + **Identity:** Use an autoincremented database columns.
   + **Sequence:** Use a database sequence.
-  + **Table:** Use a database table to simulate a sequence.
+  + **Table:** Use a database table to simulate a sequence (The table will be stored ids).
   
   Ref: https://thorben-janssen.com/primary-key-mappings-jpa-hibernate/
 </details>
