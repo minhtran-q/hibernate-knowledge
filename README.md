@@ -295,6 +295,8 @@ Inheritance is one of the most important of object-oriented principles. But the 
 
 </details>
 
+### Query
+  
 ### Optimistic vs. Pessimistic Locking
 <details>
   <summary>Optimistic locking</summary>
@@ -375,8 +377,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <br/>
   
   Ref: https://thorben-janssen.com/entities-dtos-use-projection/
-</details>  
-
+</details>
 <details>
   <summary>Insert/Update Batch</summary>
   <br/>
@@ -391,7 +392,6 @@ Inheritance is one of the most important of object-oriented principles. But the 
           order_updates: true
           batch_versioned_data: true
   ```
-  
   + Ref: https://stackoverflow.com/questions/50772230/how-to-do-bulk-multi-row-inserts-with-jparepository
   + Ref: https://www.baeldung.com/jpa-hibernate-batch-insert-update
 </details>
