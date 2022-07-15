@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/hibernate-knowledge
+    url: jdbc:postgresql://localhost:5432/hibernate-knowledge?reWriteBatchedInserts=true
     username: postgres
     password: 12345!fra
   jpa:
@@ -9,12 +9,13 @@ spring:
     hibernate.ddl-auto: update
 #    hibernate.ddl-auto: create-drop
     properties:
-      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
-      hibernate.jdbc.batch_size: 5 # Hibernate will silently disable batch inserts if we use GenerationType.IDENTITY
-      hibernate.order_inserts: true
-      hibernate.order_updates: true
-      hibernate.batch_versioned_data: true
-      hibernate.format_sql: true
+      hibernate: 
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc.batch_size: 5 # Hibernate will silently disable batch inserts if we use GenerationType.IDENTITY
+        order_inserts: true
+        order_updates: true
+        batch_versioned_data: true
+        format_sql: true
     show-sql: true
       
 logging.level:
