@@ -314,10 +314,12 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Overview</summary>
   <br/>
   
+  Flushing is the process of synchronizing the state of the persistence context with the underlying database.
+  
   Mode | Description | Note
   --- | --- | --- | 
-  AUTO | It flushes the changed entities when committing a transaction and before executing a query related to an entity that has any pending changes | supported by JPA and Hibernate (DEFAULT) Similar.
-  COMMIT | It flushes the changed entities when committing a transaction but doesn't execute any pending changes before a query | supported by JPA and Hibernate.
+  AUTO | It flushes the changed entities before committing a transaction and before executing a query related to an entity that has any pending changes | supported by JPA and Hibernate (DEFAULT) Similar.
+  COMMIT | It flushes the changed entities before committing a transaction but doesn't execute any pending changes before a query | supported by JPA and Hibernate.
   ALWAYS | It's similar `AUTO` mode. But it will execute with every query | supported by Hibernate.
   MANUAL | It deactivates all automatic flushes and requires the application to trigger the flushes automatically. | supported by Hibernate (high risks)
   
@@ -331,9 +333,13 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
 </details>
 <details>
-  <summary></summary>
+  <summary>flush() vs commit()</summary>
   <br/>
   
+  + `flush()` will synchronize your database with the current state of object/objects held in the memory but it does not commit the transaction.
+  + `commit()` will make data stored in the database permanent.
+  
+  Ref: https://stackoverflow.com/questions/14581865/hibernate-flush-and-commit
 </details>  
   
 ### DTO
