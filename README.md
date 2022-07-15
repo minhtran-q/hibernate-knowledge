@@ -316,7 +316,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   Ref: https://thorben-janssen.com/dto-projections/
   
 </details>
-  
+
 ### Logging
 <details>
   <summary>Hibernate logging</summary>
@@ -342,7 +342,25 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
   Ref: https://thorben-janssen.com/entities-dtos-use-projection/
 </details>  
- 
+
+<details>
+  <summary>Insert/Update Batch</summary>
+  <br/>
+  
+  ```
+  spring:
+    jpa:
+      properties:
+        hibernate: 
+          jdbc.batch_size: 5 # Hibernate will silently disable batch inserts if we use GenerationType.IDENTITY
+          order_inserts: true
+          order_updates: true
+          batch_versioned_data: true
+  ```
+  
+  + Ref: https://stackoverflow.com/questions/50772230/how-to-do-bulk-multi-row-inserts-with-jparepository
+  + Ref: https://www.baeldung.com/jpa-hibernate-batch-insert-update
+</details>
  
 ## Common pitfalls
 ### Avoid CascadeType.REMOVE for to-many associations
