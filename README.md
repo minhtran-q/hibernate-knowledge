@@ -307,6 +307,34 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <br/>
   
 </details>
+
+### Flush Mode
+  
+<details>
+  <summary>Overview</summary>
+  <br/>
+  
+  Mode | Description | Note
+  --- | --- | --- | 
+  AUTO | It flushes the changed entities when committing a transaction and before executing a query related to an entity that has any pending changes | supported by JPA and Hibernate (DEFAULT) Similar.
+  COMMIT | It flushes the changed entities when committing a transaction but doesn't execute any pending changes before a query | supported by JPA and Hibernate.
+  ALWAYS | It's similar `AUTO` mode. But it will execute with every query | supported by Hibernate.
+  MANUAL | It deactivates all automatic flushes and requires the application to trigger the flushes automatically. | supported by Hibernate (high risks)
+  
+  Ref: https://thorben-janssen.com/flushmode-in-jpa-and-hibernate/
+</details>
+<details>
+  <summary>Which mode should be used?</summary>
+  <br/>
+  
+  By default, the **FlushMode** is set to `AUTO`, and I recommend you **DON’T** change it.
+  
+</details>
+<details>
+  <summary></summary>
+  <br/>
+  
+</details>  
   
 ### DTO
 <details>
