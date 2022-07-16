@@ -322,6 +322,13 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + Ref: 
 </details>
 <details>
+  <summary>OIN, LEFT JOIN and JOIN FETCH</summary>
+  <br/>
+  
+  + Ref: 
+  
+</details>
+<details>
   <summary>Modifying</summary>
   <br/>
   
@@ -334,7 +341,9 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + Ref: https://thorben-janssen.com/hibernate-query-spaces/
   
 </details>
-  
+
+### Native Query
+
 ### Optimistic vs. Pessimistic Locking
 <details>
   <summary>Optimistic locking</summary>
