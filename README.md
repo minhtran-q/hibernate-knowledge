@@ -304,6 +304,30 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
 </details>
 <details>
+  <summary>Sort</summary>
+  <br/>
+  
+  + Ref: 
+</details>
+<details>
+  <summary>Pagination</summary>
+  <br/>
+  
+  + Ref: 
+</details>
+<details>
+  <summary>Parameter Binding</summary>
+  <br/>
+  
+  + Ref: 
+</details>
+<details>
+  <summary>Modifying</summary>
+  <br/>
+  
+  + Ref: 
+</details>
+<details>
   <summary>Query Spaces</summary>
   <br/>
   
@@ -360,7 +384,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + `commit()` will make data stored in the database permanent.
   
   Ref: https://stackoverflow.com/questions/14581865/hibernate-flush-and-commit
-</details>  
+</details>
   
 ### DTO
 <details>
