@@ -16,8 +16,10 @@ spring:
         order_updates: true
         batch_versioned_data: true
         format_sql: true
+#        connection.provider_disables_autocommit: true # tells Hibernate that the underlying JDBC Connections already disabled the auto-commit mode.
     show-sql: true
-      
+  hikari: 
+    autoCommit: false    
 logging.level:
   org.hibernate.type.descriptor.sql: trace
   logger.org.hibernate.SQL: debug
