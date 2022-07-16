@@ -5,9 +5,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import vn.hibernateknowledge.hibernateorm.infrastructure.repository.ManagementRepository;
+import vn.hibernateknowledge.hibernateorm.infrastructure.repository.SessionRepository;
 
 @Configuration
-@EnableJpaRepositories(basePackageClasses = {ManagementRepository.class})
+@EnableJpaRepositories(basePackageClasses = {ManagementRepository.class, SessionRepository.class})
 @EnableTransactionManagement
 public class JpaConfiguration {
 

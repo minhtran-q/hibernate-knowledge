@@ -10,6 +10,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.SequenceGenerator;
 
 @Entity(name = "session")
 public class SessionEntity implements Serializable {
@@ -17,7 +18,8 @@ public class SessionEntity implements Serializable {
     private static final long serialVersionUID = -5687634074129094497L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "session_sequence")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "session_sequence_generator")
+    @SequenceGenerator(allocationSize = 1, initialValue = 1, name = "session_sequence_generator", sequenceName = "session_sequence")
     private Long id;
 
     @ManyToOne(fetch = FetchType.LAZY)

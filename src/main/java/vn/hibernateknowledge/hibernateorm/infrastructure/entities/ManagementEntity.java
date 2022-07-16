@@ -30,7 +30,7 @@ public class ManagementEntity implements Serializable {
 
     @Column(name = "end_time")
     private long endTime;
-
+    
     public DataEntity getDataEntity() {
         return dataEntity;
     }
