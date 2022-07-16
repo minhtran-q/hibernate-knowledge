@@ -299,8 +299,15 @@ Inheritance is one of the most important of object-oriented principles. But the 
 <details>
   <summary>JPQL</summary>
   <br/>
+  
   The JPQL (Java Persistence Query Language) is a query language which is used to perform database operations on persistent entities. The role of **JPA** is to transform JPQL into SQL.
   
+</details>
+<details>
+  <summary>Query Spaces</summary>
+  <br/>
+  
+  + Ref: https://thorben-janssen.com/hibernate-query-spaces/
   
 </details>
   
