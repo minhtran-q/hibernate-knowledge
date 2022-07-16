@@ -332,6 +332,10 @@ Inheritance is one of the most important of object-oriented principles. But the 
   ALWAYS | It's similar `AUTO` mode. But it will execute with every query | supported by Hibernate.
   MANUAL | It deactivates all automatic flushes and requires the application to trigger the flushes automatically. | supported by Hibernate (high risks)
   
+  _Note:_
+  + `flush()` is called only after executing a JPQL query or a Criteria Query.
+  + If you use default functions in `JpaRepository`, you must call the `flush()` function manually.
+  
   Ref: https://thorben-janssen.com/flushmode-in-jpa-and-hibernate/
 </details>
 <details>
