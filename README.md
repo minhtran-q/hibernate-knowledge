@@ -169,7 +169,6 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Graps of the Primary key when rollback the transactions</summary>
   <br/>
   
-  
   + Ref: https://stackoverflow.com/questions/449346/mysql-auto-increment-does-not-rollback
   + Ref: https://stackoverflow.com/questions/22787153/gaps-in-the-sequence-values-generated-by-jpa-generatedvalue-with-postgresql
   + Ref: https://stackoverflow.com/questions/20636144/are-jpa-and-hibernate-entity-identifiers-reset-to-null-after-a-rollback/67401366#67401366
@@ -180,6 +179,14 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
   + Ref: https://stackoverflow.com/questions/27697810/why-does-hibernate-disable-insert-batching-when-using-an-identity-identifier-gen
 </details>
+<details>
+  <summary>Sequence identifier strategies</summary>
+  <br/>
+  
+  + Ref: https://vladmihalcea.com/hibernate-hidden-gem-the-pooled-lo-optimizer/
+  + Ref: https://vladmihalcea.com/the-hilo-algorithm/
+</details>
+
 
 ### Map Associations
 
@@ -316,7 +323,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + Ref: 
 </details>
 <details>
-  <summary>Parameter Binding</summary>
+  <summary>Parameter binding</summary>
   <br/>
   
   + Ref: 
@@ -335,7 +342,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + Ref: 
 </details>
 <details>
-  <summary>Query Spaces</summary>
+  <summary>Query spaces</summary>
   <br/>
   
   + Ref: https://thorben-janssen.com/hibernate-query-spaces/
@@ -414,9 +421,8 @@ Inheritance is one of the most important of object-oriented principles. But the 
 </details>
 
 ### Performance review
-
 <details>
-  <summary>Overview</summary>
+  <summary>Check list</summary>
   <br/>
   
   + Ref: https://vladmihalcea.com/hibernate-performance-tuning-tips/
