@@ -349,9 +349,8 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
   _Example: SELECT s FROM session s WHERE s.managementEntity.managementId = ?1_
   
-  
-
-  Ref: https://thorben-janssen.com/hibernate-tips-difference-join-left-join-fetch-join/
+  + Ref: https://thorben-janssen.com/hibernate-tips-difference-join-left-join-fetch-join/
+  + Ref: https://stackoverflow.com/questions/17431312/what-is-the-difference-between-join-and-join-fetch-when-using-jpa-and-hibernate
 </details>
 <details>
   <summary>Modifying</summary>
