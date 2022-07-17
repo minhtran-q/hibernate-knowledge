@@ -326,7 +326,19 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Parameter binding</summary>
   <br/>
   
-  + Ref: 
+  Two way to use the parameter binding:
+  1. Binding paramter with positions
+  2. Binding paramter with `@Param`
+  
+  ```
+    @Query("FROM Author WHERE firstName = ?1")
+    List<Author> findByFirstName(String firstName); // position
+ 
+    @Query("SELECT a FROM Author a WHERE firstName = :firstName AND lastName = :lastName")
+    List<Author> findByFirstNameAndLastName(@Param("lastName") String firstName, @Param("firstName") String lastName); // @Param
+  ```
+  
+  + Ref: https://thorben-janssen.com/spring-data-jpa-query-annotation/
 </details>
 <details>
   <summary>JOIN, LEFT JOIN and JOIN FETCH</summary>
