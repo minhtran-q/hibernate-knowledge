@@ -559,7 +559,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
 <details>
   <summary>What is projection?</summary>
   <br/>
-
+  
   
   
   Ref: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections
@@ -567,42 +567,109 @@ Inheritance is one of the most important of object-oriented principles. But the 
 <details>
   <summary>Projection type</summary>
   <br/>
+  
+  1. **Scalar projection**: that consists of one or more database columns that are returned as an Object[].
+  2. **DTO projection**: that consists that selects all database columns mapped by an entity class.of one or more database columns. It uses them to call a constructor and returns one or more unmanaged objects.
+  3. **Entity projection**: that selects all database columns mapped by an entity class.
+  
+  _Note:_ Entity projections are great for all **write operations**. But **read-only operations** should be handled differently. Hibernate doesn’t need to manage any states or **perform dirty checks** if you just want to read some data from the database. So, `DTO projection` should be the better projection for reading your data.
+  
+  + Ref: https://thorben-janssen.com/spring-data-jpa-query-projections/#JPA8217s_DTOs
+  + Ref: https://thorben-janssen.com/entities-dtos-use-projection/
+</details>  
+<details>
+  <summary>DTO projection type</summary>
+  <br/>
 
-  + Interface-based Projections
+  + JPA’s DTOs
   + Class-based Projections (DTOs)
+  + Interface-based Projections
   
 </details>
 <details>
-  <summary>Interface-based projections</summary>
+  <summary>JPA’s DTOs</summary>
   <br/>
   
-  
-  
-  Ref: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections.interfaces
+  A DTO class typically only defines a set of attributes, getter methods, a constructor that sets all attributes.
+  ```
+  public class AuthorSummaryDTO {
+     
+    private String firstName;
+    private String lastName;
+     
+    public AuthorSummaryDTO(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+     
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+  }
+  ```
+  To use this class as a projection with plain JPA, you need to use a constructor expression in your query
+  ```
+  @Query("SELECT new com.thorben.janssen.spring.jpa.projections.dto.AuthorSummaryDTO(a.firstName, a.lastName) FROM Author a WHERE a.firstName = :firstName")
+  List<AuthorSummaryDTO> findByFirstName(String firstName);
+  ```
+  Ref: https://thorben-janssen.com/spring-data-jpa-query-projections/#JPA8217s_DTOs
 </details>
 <details>
   <summary>Class-based projections (DTOs)</summary>
   <br/>
   
+  You can use DTO projections in a derived query without a constructor expression. As long as the DTO class has **only one constructor** and its parameter names **match** your entity class’s attribute names.
+  ```
+  @Repository
+  public interface AuthorRepository extends CrudRepository<Author, Long> {
+
+      List<AuthorSummaryDTO> findByFirstName(String firstName);
+  }
+  ```
+  + Ref: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections.dtos
+  + Ref: https://thorben-janssen.com/spring-data-jpa-query-projections/#Spring_Data8217s_Simplified_DTOs
+</details>
+<details>
+  <summary>Interface-based projections</summary>
+  <br/>
   
+  You can also use an interface as your DTO projection. As long as your interface only defines getter methods for basic attributes. 
   
-  Ref: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections.dtos
+  In addition, **the name of that method** has to be identical to that of a **getter method** defined on the **entity** class.
+  
+  ```
+  public interface AuthorView {
+  
+    String getFirstName(); // the method name must be similar to entity class (Author)
+  
+    String getLastName();
+  }
+  ```
+  ```
+  @Repository
+  public interface AuthorRepository extends CrudRepository<Author, Long> {
+
+      AuthorView  findViewByFirstName(String firstName);
+  }
+  ```
+  Ref: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections.interfaces
 </details>
 <details>
   <summary>Dynamic projections</summary>
   <br/>
   
-  
-  
+  ```
+  @Repository
+  public interface AuthorRepository extends CrudRepository<Author, Long> {
+      <T> T findByLastName(String lastName, Class<T> type);   
+  }
+  ```
   Ref: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections.dtos
 </details> 
-<details>
-  <summary>How to use DTO?</summary>
-  <br/>
-
-  Ref: https://thorben-janssen.com/dto-projections/
-  
-</details>
 
 ### Logging
 <details>
