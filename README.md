@@ -320,7 +320,22 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Pagination</summary>
   <br/>
   
-  + Ref: 
+  `LIMIT` clause returns a subset of “n” rows from the query result.
+  `OFFSET` clause placed after the `LIMIT` clause skips "m" number of rows before returning the result query.
+  
+  ```
+  Pageable pageable = PageRequest.of(0, 5, Sort.by("price").descending().and(Sort.by("name")));
+  
+  Page<Product> allProducts = productRepository.findAll(pageable);
+  ```
+  
+  _Note:_
+  1. `offset` in `Pageable` equal `pageIndex * pageSize`
+  2. Pagination must use the same order type for all `PageRequest`
+  3. When using `JOIN FETCH` with Pagination, it will fetch all associations and make memory increase.
+  
+  + Ref: https://thorben-janssen.com/pagination-jpa-hibernate/
+  + Ref: https://www.baeldung.com/spring-data-jpa-pagination-sorting
 </details>
 <details>
   <summary>Parameter binding</summary>
