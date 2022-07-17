@@ -164,6 +164,35 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Identity vs Sequence</summary>
   <br/>
   
+  + **Identity:**
+  
+  Hibernate will create a sequence and use for primary column is default value.
+  ```
+  CREATE TABLE public.session
+  (
+      id bigint NOT NULL DEFAULT nextval('session_id_seq'::regclass),
+      ..
+  )
+  ```
+  The next value of the sequence will be called automatically when the record is inserted into the database.
+  + **Sequence:**
+  
+  ```
+  select
+    nextval ('data_sequence')
+  -----------------------------
+  insert 
+  into
+      data
+      (data1, data2, data3, data4, data_id) 
+  values
+      (?, ?, ?, ?, ?)
+  ```
+  
+  Hibernate will create a sequence and select the next value of the sequence before inserting the record into the database.
+  
+  Note: Only true with **Postgres** database.
+  
 </details>
 <details>
   <summary>Graps of the Primary key when rollback the transactions</summary>
