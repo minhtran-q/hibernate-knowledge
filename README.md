@@ -438,7 +438,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   _Use the store procedure with `@Query`_
   
   + Ref: https://thorben-janssen.com/hibernate-query-spaces/
-  
+  + Ref: https://www.baeldung.com/spring-data-jpa-stored-procedures
 </details>
 
 ### Optimistic vs. Pessimistic Locking
