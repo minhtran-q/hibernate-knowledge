@@ -555,7 +555,47 @@ Inheritance is one of the most important of object-oriented principles. But the 
   Ref: https://stackoverflow.com/questions/14581865/hibernate-flush-and-commit
 </details>
   
-### DTO
+### Projections
+<details>
+  <summary>What is projection?</summary>
+  <br/>
+
+  
+  
+  Ref: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections
+</details>
+<details>
+  <summary>Projection type</summary>
+  <br/>
+
+  + Interface-based Projections
+  + Class-based Projections (DTOs)
+  
+</details>
+<details>
+  <summary>Interface-based projections</summary>
+  <br/>
+  
+  
+  
+  Ref: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections.interfaces
+</details>
+<details>
+  <summary>Class-based projections (DTOs)</summary>
+  <br/>
+  
+  
+  
+  Ref: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections.dtos
+</details>
+<details>
+  <summary>Dynamic projections</summary>
+  <br/>
+  
+  
+  
+  Ref: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections.dtos
+</details> 
 <details>
   <summary>How to use DTO?</summary>
   <br/>
