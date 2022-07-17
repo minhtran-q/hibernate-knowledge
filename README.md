@@ -394,7 +394,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Modifying</summary>
   <br/>
   
-  When you use the UPDATE statement, it requires an additional @Modifying annotation.
+  When you use the `UPDATE`/`INSERT` statement, it requires an additional @Modifying annotation.
   
   ```
     @Query("UPDATE Author SET firstName = :prefix || firstName")
