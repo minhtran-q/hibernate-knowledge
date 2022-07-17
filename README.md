@@ -350,7 +350,14 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Modifying</summary>
   <br/>
   
-  + Ref: 
+  When you use the UPDATE statement, it requires an additional @Modifying annotation.
+  
+  ```
+    @Query("UPDATE Author SET firstName = :prefix || firstName")
+    @Modifying
+    void addPrefixToFirstName(@Param("prefix") String prefix);
+  ```
+  + Ref: https://thorben-janssen.com/spring-data-jpa-query-annotation/
 </details>
 <details>
   <summary>Query spaces</summary>
