@@ -314,7 +314,18 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Sort</summary>
   <br/>
   
-  + Ref: 
+  With Spring Data JPA, you can also add a parameter of type Sort to your method definition
+  
+  ```
+  @Query("FROM Author WHERE firstName = ?1")
+  List<Author> findByFirstName(String firstName, Sort sort);
+  ```
+  
+  ```
+  Sort sort = new Sort(Direction.ASC, "firstName");
+  List<Author> authors = authorRepository.findByFirstName("Thorben", sort);
+  ```
+  Ref: https://thorben-janssen.com/spring-data-jpa-query-annotation/
 </details>
 <details>
   <summary>Pagination</summary>
