@@ -345,7 +345,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   _Example:  SELECT a FROM Author a JOIN FETCH a.books b WHERE b.title LIKE '%Hibernate%'_
   
   _Note:_
-  1. Hibernate will generate a `CROSS JOIN` for a implicit join.
+  1. Hibernate will generate a `CROSS JOIN` for a implicit join. Prefer to always use an explicit JOIN instead.
   
   _Example: SELECT s FROM session s WHERE s.managementEntity.managementId = ?1_
   
