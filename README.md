@@ -329,7 +329,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + Ref: 
 </details>
 <details>
-  <summary>OIN, LEFT JOIN and JOIN FETCH</summary>
+  <summary>JOIN, LEFT JOIN and JOIN FETCH</summary>
   <br/>
   
   + **JOIN:** It's similar with `JOIN` in SQL.
@@ -343,6 +343,13 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + **FETCH JOIN:** It not only join the 2 database tables within the query but to also initialize the association on the returned entity.
   
   _Example:  SELECT a FROM Author a JOIN FETCH a.books b WHERE b.title LIKE '%Hibernate%'_
+  
+  _Note:_
+  1. Hibernate will generate a `CROSS JOIN` for a implicit join.
+  
+  _Example: SELECT s FROM session s WHERE s.managementEntity.managementId = ?1_
+  
+  
 
   Ref: https://thorben-janssen.com/hibernate-tips-difference-join-left-join-fetch-join/
 </details>
