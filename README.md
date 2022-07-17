@@ -346,20 +346,20 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
   + **JOIN:** It's similar with `JOIN` in SQL.
   
-  _Example:_  SELECT a FROM Author a JOIN a.books b WHERE b.title LIKE '%Hibernate%'
+  _**Example:**  SELECT a FROM Author a JOIN a.books b WHERE b.title LIKE '%Hibernate%'_
   
   + **LEFT JOIN:** `LEFT JOIN` statement is similar to the `JOIN` statement. The main difference is that a `LEFT JOIN` statement includes all rows of the entity or table referenced on the left side of the statement.
   
-  _Example:  SELECT a, b FROM Author a LEFT JOIN a.books b WHERE a.lastName = 'Janssen'_
+  _**Example:**  SELECT a, b FROM Author a LEFT JOIN a.books b WHERE a.lastName = 'Janssen'_
   
   + **FETCH JOIN:** It not only join the 2 database tables within the query but to also initialize the association on the returned entity.
   
-  _Example:  SELECT a FROM Author a JOIN FETCH a.books b WHERE b.title LIKE '%Hibernate%'_
+  _**Example:**  SELECT a FROM Author a JOIN FETCH a.books b WHERE b.title LIKE '%Hibernate%'_
   
   _Note:_
   1. Hibernate will generate a `CROSS JOIN` for a implicit join. Prefer to always use an explicit JOIN instead.
   
-  _Example: SELECT s FROM session s WHERE s.managementEntity.managementId = ?1_
+  _**Example:** SELECT s FROM session s WHERE s.managementEntity.managementId = ?1 (implicit join)_ 
   
   + Ref: https://thorben-janssen.com/hibernate-tips-difference-join-left-join-fetch-join/
   + Ref: https://stackoverflow.com/questions/17431312/what-is-the-difference-between-join-and-join-fetch-when-using-jpa-and-hibernate
