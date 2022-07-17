@@ -332,8 +332,19 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>OIN, LEFT JOIN and JOIN FETCH</summary>
   <br/>
   
-  + Ref: 
+  + **JOIN:** It's similar with `JOIN` in SQL.
   
+  _Example:_  SELECT a FROM Author a JOIN a.books b WHERE b.title LIKE '%Hibernate%'
+  
+  + **LEFT JOIN:** `LEFT JOIN` statement is similar to the `JOIN` statement. The main difference is that a `LEFT JOIN` statement includes all rows of the entity or table referenced on the left side of the statement.
+  
+  _Example:  SELECT a, b FROM Author a LEFT JOIN a.books b WHERE a.lastName = 'Janssen'_
+  
+  + **FETCH JOIN:** It not only join the 2 database tables within the query but to also initialize the association on the returned entity.
+  
+  _Example:  SELECT a FROM Author a JOIN FETCH a.books b WHERE b.title LIKE '%Hibernate%'_
+
+  Ref: https://thorben-janssen.com/hibernate-tips-difference-join-left-join-fetch-join/
 </details>
 <details>
   <summary>Modifying</summary>
