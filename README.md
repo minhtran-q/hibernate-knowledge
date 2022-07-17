@@ -412,6 +412,34 @@ Inheritance is one of the most important of object-oriented principles. But the 
 </details>
 
 ### Native Query
+### Store Procedure
+<details>
+  <summary>Call store procedure</summary>
+  <br/>
+  
+  ```
+  CREATE PROCEDURE GET_TOTAL_CARS_BY_MODEL(IN model_in VARCHAR(50), OUT count_out INT)
+  BEGIN
+      SELECT COUNT(*) into count_out from car WHERE model = model_in;
+  END
+  ```
+  _Define the store procedure_
+  
+  ```
+  @Procedure(procedureName = "GET_TOTAL_CARS_BY_MODEL")
+  int getTotalCarsByModelProcedureName(String model);
+  ```
+  _Use the store procedure in Repository_
+  
+  ```
+  @Query(value = "CALL FIND_CARS_AFTER_YEAR(:year_in);", nativeQuery = true)
+  List<Car> findCarsAfterYear(@Param("year_in") Integer year_in);
+  ```
+  _Use the store procedure with `@Query`_
+  
+  + Ref: https://thorben-janssen.com/hibernate-query-spaces/
+  
+</details>
 
 ### Optimistic vs. Pessimistic Locking
 <details>
