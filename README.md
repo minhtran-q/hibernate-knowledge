@@ -412,6 +412,40 @@ Inheritance is one of the most important of object-oriented principles. But the 
 </details>
 
 ### Native Query
+<details>
+  <summary>How to use the native query?</summary>
+  <br/>
+  
+  Enable the `nativeQuery` attribute in the `@Query`.
+  
+  Ref: https://thorben-janssen.com/native-queries-with-spring-data-jpa/
+  
+</details>
+<details>
+  <summary>Limitations of Native Queries With Spring Data JPA</summary>
+  <br/>
+  
+  1. Pagination of native query results requires an extra step.
+  
+  You need to provide a count query that returns the total number of records.
+  
+  ```
+    @Query(value="select * from author a where a.last_name= ?1", 
+        countQuery = "select count(id) from author a where a.last_name= ?1", 
+        nativeQuery = true)
+    Page<Author> getAuthorsByLastName(String lastname, Pageable page);
+  ```
+  
+  2. Spring Data JPA doesn’t support dynamic sorting for native SQL statements.
+  
+  When working with a JPQL query, you can add a parameter of type `Sort` to your repository method. This enables you to define the sorting criteria at runtime.
+  
+  Unfortunately, Spring Data JPA doesn’t support this feature for native queries.
+  
+  Ref: https://thorben-janssen.com/native-queries-with-spring-data-jpa/
+  
+</details>
+  
 ### Store Procedure
 <details>
   <summary>Call store procedure</summary>
