@@ -19,7 +19,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 class ManagementControllerTest {
     
     @Mock
-    ManagementController managementController;
+    Controller managementController;
 
     @BeforeEach
     public void init() {
