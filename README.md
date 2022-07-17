@@ -320,8 +320,8 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Pagination</summary>
   <br/>
   
-  `LIMIT` clause returns a subset of “n” rows from the query result.
-  `OFFSET` clause placed after the `LIMIT` clause skips "m" number of rows before returning the result query.
+  + `LIMIT` clause returns a subset of “n” rows from the query result.
+  + `OFFSET` clause placed after the `LIMIT` clause skips "m" number of rows before returning the result query.
   
   ```
   Pageable pageable = PageRequest.of(0, 5, Sort.by("price").descending().and(Sort.by("name")));
