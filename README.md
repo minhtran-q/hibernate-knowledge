@@ -84,7 +84,6 @@ A persistence context is a set of entity instances. Within the persistence conte
   Removed | Removed entities are entities that already exist in the database and will be deleted after flushing (commit) |
   
   Ref: https://howtodoinjava.com/hibernate/hibernate-entity-persistence-lifecycle-states/
-  Ref: 
   
 </details>
 
@@ -99,6 +98,14 @@ A persistence context is a set of entity instances. Within the persistence conte
   _At flush time (commit)_
   
   Ref: https://www.codementor.io/@narendrasharma95ns/life-cycle-of-an-entity-object-dirty-checking-in-hibernate-lvh1dh5jz
+  
+</details>
+
+<details>
+  <summary>Write-Behind Technique</summary>
+  <br/>
+  
+  Ref: http://learningviacode.blogspot.com/2012/02/write-behind-technique-in-hibernate.html
   
 </details>
 
