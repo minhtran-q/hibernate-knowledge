@@ -34,9 +34,30 @@
 
 </details>
 
-### Pros & cons (vs JBDC)
+### Advantages and disadvantages (vs JBDC)
 
+<details>
+  <summary>Advantages</summary>
+  <br/>
+  
+  + Hibernate supports to build relationships based on the data model.
+  + Hibernate supports lot of databases.
+  + Hibernate maintains database connection pool.
+  + Hibernate has Caching mechanism. Using this number of database hits will be reduced
+  + Hibernate generates the SQL on the fly and then automatically executes the necessary SQL statements. 
+  
+</details>
 
+<details>
+  <summary>Disadvantages</summary>
+  <br/>
+  
+  + Lots of API to learn
+  + Slower than JDBC
+  + Generates complex quires with many joins
+  + Not suitable for small project
+  
+</details>
 
 ### Persistence Context
 
