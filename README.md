@@ -174,6 +174,13 @@ Inheritance is one of the most important of object-oriented principles. But the 
   ![](images/table-per-class.png)
   
 </details>
+<details>
+  <summary>Can Entity be an abstract class?</summary>
+  <br/>
+  
+  Perhaps, at the same time, it retains all the properties of the Entity, except that it cannot be directly initialized.
+  
+</details>
 
 ### Identifiers
 
