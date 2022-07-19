@@ -347,11 +347,12 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Cascading best practices</summary>
   <br/>
 
-  + Cascading only makes sense only for Parent – Child associations (the Parent entity state transition being cascaded to its Child entities). 
-  + Cascading from Child to Parent is not very useful and usually, it’s a mapping code smell.
-  + Use CascadeType.REMOVE and CascadeType.ALL only for to-one associations.
+  1. Cascading only makes sense only for Parent – Child associations (the Parent entity state transition being cascaded to its Child entities). 
+  2. Cascading from Child to Parent is not very useful and usually, it’s a mapping code smell.
+  3. Use CascadeType.REMOVE and CascadeType.ALL only for to-one associations.
   
-  Ref: https://vladmihalcea.com/a-beginners-guide-to-jpa-and-hibernate-cascade-types/
+  + Ref: https://vladmihalcea.com/a-beginners-guide-to-jpa-and-hibernate-cascade-types/
+  + Ref: https://thorben-janssen.com/avoid-cascadetype-delete-many-assocations/#Remove_One_By_One
 
 </details>
 
