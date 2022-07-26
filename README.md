@@ -84,6 +84,8 @@ A persistence context is a set of entity instances. Within the persistence conte
     + Query Execution
     + Control of Transaction
     + Management of Persistent Context
+    
+    ![](images/entity_manager_&_persistence_context.gif)
   
   Ref: https://tech.lalitbhatt.net/2014/07/hibernate-persistent-context-and-session.html
   
