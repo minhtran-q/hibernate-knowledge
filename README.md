@@ -183,6 +183,53 @@ Inheritance is one of the most important of object-oriented principles. But the 
   Perhaps, at the same time, it retains all the properties of the Entity, except that it cannot be directly initialized.
   
 </details>
+<details>
+  <summary>@DiscriminatorValue annotation in Hibernate</summary>
+  <br/>
+  
+  Discriminator is commonly used in `SINGLE_TABLE` inheritance. You need a column to identify the type of the record.
+  
+  _Example:_ You have a class `Student` and 2 sub-classes: `GoodStudent` and `BadStudent`. Both Good and BadStudent data will be stored in 1 table, but of course we need to know the type and that's when (`DiscriminatorColumn` and) `DiscriminatorValue` will come in.
+  
+  ```
+  @Entity
+  @Table(name ="Student")
+  @Inheritance(strategy=SINGLE_TABLE)
+  @DiscriminatorColumn(discriminatorType = DiscriminatorType.STRING,
+      name = "Student_Type")
+  public class Student{
+       private int id;
+       private String name;
+  }
+  ```
+  _Student class_
+  
+  ```
+  @Entity
+  @DiscriminatorValue("Bad Student")
+  public class BadStudent extends Student{ 
+   //code here
+  }
+  ```
+  _Bad Student class_
+  
+  ```
+  @Entity
+  @DiscriminatorValue("Good Student")
+  public class GoodStudent extends Student{ 
+  //code here
+  }
+  ```
+  _Good Student class_
+  
+  id|Student_Type | Name |
+  --|-------------|-------|
+  1 |Good Student | Ravi |
+  2 |Bad Student  | Sham |
+  
+  _Result_
+  
+</details>
 
 ### Identifiers
 
