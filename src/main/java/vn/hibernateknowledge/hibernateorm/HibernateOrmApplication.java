@@ -9,4 +9,5 @@ public class HibernateOrmApplication {
     public static void main(String[] args) {
         SpringApplication.run(HibernateOrmApplication.class, args);
     }
+	//test
 }
