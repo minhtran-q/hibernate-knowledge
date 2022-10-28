@@ -591,10 +591,10 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Transaction Characteristics</summary>
   <br/>
   
-  1. Atomicity 
-  2. Consistency 
-  3. Durability 
-  4. Isolation 
+  1. Atomicity - _Either all operations complete successfully of the transaction fails and the db in unchanged._
+  2. Consistency - _The db state must be valid after the transaction. All constraints must be satisfied._
+  3. Durability - _Data written by a sucessful transaction must e recorded in persistennt storage._
+  4. Isolation - _Concurrent transaction must not affect each other._
   + Ref: 
 </details>
   
