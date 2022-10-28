@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T07:59:28.380Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="X5A87biRcy6j6DX-GH4X" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T08:00:31.903Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="hHKEiQXX5UzsqkSq3SXV" version="20.5.1" type="github">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Page-1">
     <mxGraphModel dx="1185" dy="1762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
             <mxPoint x="48.916666666666515" y="321" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aKuo4-kzS2kdG3KM4JdI-56" value="&lt;div style=&quot;text-align: left;&quot;&gt;UPDATE id, balance&lt;br&gt;SET balance = balance - 100&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=9;" edge="1" parent="aKuo4-kzS2kdG3KM4JdI-4">
+        <mxCell id="aKuo4-kzS2kdG3KM4JdI-56" value="&lt;div style=&quot;text-align: left;&quot;&gt;UPDATE account&lt;br&gt;SET balance = balance - 100&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;WHERE id = 1&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=9;" edge="1" parent="aKuo4-kzS2kdG3KM4JdI-4">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="49.080000000000155" y="303" as="sourcePoint" />
             <mxPoint x="-114.75333333333356" y="303" as="targetPoint" />
@@ -137,7 +137,7 @@
             <mxPoint x="557.5" y="306.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aKuo4-kzS2kdG3KM4JdI-53" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;SELECT id, balance&lt;br&gt;FROM account&lt;br&gt;WHERE id = 1&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;align=left;" edge="1" parent="1">
+        <mxCell id="aKuo4-kzS2kdG3KM4JdI-53" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;UPDATE account&lt;/span&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;SET balance = balance - 100&lt;br&gt;WHERE id = 1&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;align=left;" edge="1" parent="1">
           <mxGeometry x="-0.4831" width="80" relative="1" as="geometry">
             <mxPoint x="231" y="487" as="sourcePoint" />
             <mxPoint x="393.5" y="487" as="targetPoint" />
