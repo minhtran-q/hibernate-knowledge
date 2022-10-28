@@ -1,29 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T07:24:28.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GJDNSzPrIVff4Xut79iz" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T07:25:08.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="megT-7wuK1MYWb-X8HWW" version="20.5.1" type="github">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Page-1">
-    <mxGraphModel dx="1632" dy="434" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="511" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aKuo4-kzS2kdG3KM4JdI-1" value=":Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="314" y="70" width="100" height="300" as="geometry" />
+          <mxGeometry x="344" y="70" width="100" height="337" as="geometry" />
         </mxCell>
         <mxCell id="aKuo4-kzS2kdG3KM4JdI-2" value=":Web Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="70" width="100" height="300" as="geometry" />
+          <mxGeometry x="180" y="70" width="100" height="337" as="geometry" />
         </mxCell>
         <mxCell id="aKuo4-kzS2kdG3KM4JdI-4" value=":Web Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="478" y="70" width="100" height="300" as="geometry" />
+          <mxGeometry x="508" y="70" width="100" height="335" as="geometry" />
         </mxCell>
         <mxCell id="aKuo4-kzS2kdG3KM4JdI-5" value=":User A" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-17" y="70" width="100" height="300" as="geometry" />
+          <mxGeometry x="13" y="70" width="100" height="347" as="geometry" />
         </mxCell>
-        <mxCell id="aKuo4-kzS2kdG3KM4JdI-7" value="GET&lt;br&gt;http://localhost/product/1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="aKuo4-kzS2kdG3KM4JdI-5" target="aKuo4-kzS2kdG3KM4JdI-2">
+        <mxCell id="aKuo4-kzS2kdG3KM4JdI-7" value="GET&lt;br&gt;http://localhost/product/1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="aKuo4-kzS2kdG3KM4JdI-5">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="49" y="68" as="sourcePoint" />
-            <mxPoint x="129" y="68" as="targetPoint" />
+            <mxPoint x="49" y="81" as="sourcePoint" />
+            <mxPoint x="216.5" y="81" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aKuo4-kzS2kdG3KM4JdI-6" value=":User B" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="642" y="70" width="100" height="300" as="geometry" />
+          <mxGeometry x="672" y="70" width="100" height="337" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
