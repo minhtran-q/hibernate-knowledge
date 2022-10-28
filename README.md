@@ -597,6 +597,15 @@ Inheritance is one of the most important of object-oriented principles. But the 
   4. Isolation 
   + Ref: 
 </details>
+  
+<details>
+  <summary>Isolation</summary>
+  <br/>
+  
+  
+  
+  + Ref: 
+</details>  
 
 ### Optimistic vs. Pessimistic Locking
 <details>
