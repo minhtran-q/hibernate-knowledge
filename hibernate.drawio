@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T07:49:50.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="TJ971ytMG2NITw3b-g_d" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T07:50:06.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YK9p7TNDrmHvTgNtG2Po" version="20.5.1" type="github">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Page-1">
     <mxGraphModel dx="1185" dy="1762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
         <mxCell id="aKuo4-kzS2kdG3KM4JdI-5" value=":User A" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="13" y="70" width="100" height="347" as="geometry" />
         </mxCell>
-        <mxCell id="aKuo4-kzS2kdG3KM4JdI-7" value="GET&lt;br&gt;http://localhost/account/1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="aKuo4-kzS2kdG3KM4JdI-5">
+        <mxCell id="aKuo4-kzS2kdG3KM4JdI-7" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;GET&lt;br&gt;http://localhost/account/1&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="aKuo4-kzS2kdG3KM4JdI-5">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="49" y="81" as="sourcePoint" />
             <mxPoint x="216.5" y="81" as="targetPoint" />
