@@ -602,9 +602,16 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Isolation</summary>
   <br/>
   
+  Isolation is one of the four property of a database transaction, where at its highest level, a perfect isolation ensures that all concurrent transactions will not affect each other. But there are several ways that a transaction can be interfered by other transactions that runs simultaneously with it. This is called `read phenomenon`.
   
+  Level               | Description | 
+  ---                 | ---         | 
+  Dirty read          | A transaction **reads** data written by other concurrent **uncommitted** transaction |
+  Non-repeatable read | A transaction **reads** the **same row twice** and sees different value because it has been **modified** by other **committed** transaction |
+  Phantom read        | A transaction re-executes a query to find rows that satisfy a condition and sees a different set of rows, due to changes by other committed transaction |
+  Serialization       |             |
   
-  + Ref: 
+  + Ref: https://dev.to/techschoolguru/understand-isolation-levels-read-phenomena-in-mysql-postgres-c2e#acid-property
 </details>  
 
 ### Optimistic vs. Pessimistic Locking
