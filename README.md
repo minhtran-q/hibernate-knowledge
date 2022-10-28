@@ -585,6 +585,19 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + Ref: https://www.baeldung.com/spring-data-jpa-stored-procedures
 </details>
 
+### Transaction in JPA
+
+<details>
+  <summary>Transaction Characteristics</summary>
+  <br/>
+  
+  1. Atomicity 
+  2. Consistency 
+  3. Durability 
+  4. Isolation 
+  + Ref: 
+</details>
+
 ### Optimistic vs. Pessimistic Locking
 <details>
   <summary>Optimistic locking</summary>
