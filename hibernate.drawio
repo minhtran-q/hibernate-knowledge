@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T09:42:32.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="JtVUiHopiF_xBlBv1hkd" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-13T15:33:43.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="8sxqjEk6e4_TdpQSwGV5" version="20.5.1" type="github" pages="2">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
-    <mxGraphModel dx="1422" dy="1894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="1762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -194,58 +194,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BSmmxB9XagOKgLu3_U-_" name="Page-2">
-    <mxGraphModel dx="981" dy="548" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="662" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="f0I6HTxJ2aiZMTKFPbjw-1" value=":Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="344" y="70" width="100" height="450" as="geometry" />
+          <mxGeometry x="577" y="70" width="100" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="f0I6HTxJ2aiZMTKFPbjw-9" value=":Application" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="f0I6HTxJ2aiZMTKFPbjw-9" value=":Transaction 1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="76" y="70" width="100" height="455" as="geometry" />
         </mxCell>
-        <mxCell id="f0I6HTxJ2aiZMTKFPbjw-10" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;SELECT id, balance&lt;br&gt;FROM account&lt;br&gt;WHERE id = &#39;48e5b762-5861-11ed-9b6a-0242ac120002&#39;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;align=left;" parent="f0I6HTxJ2aiZMTKFPbjw-9" target="f0I6HTxJ2aiZMTKFPbjw-1" edge="1">
-          <mxGeometry x="-0.8523" y="16" width="80" relative="1" as="geometry">
-            <mxPoint x="51" y="106" as="sourcePoint" />
-            <mxPoint x="131" y="106" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f0I6HTxJ2aiZMTKFPbjw-12" value=":Application" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="622" y="70" width="100" height="447" as="geometry" />
-        </mxCell>
-        <mxCell id="f0I6HTxJ2aiZMTKFPbjw-14" value="&lt;div style=&quot;text-align: left;&quot;&gt;UPDATE account&lt;br&gt;SET balance = 2000&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;WHERE id =&amp;nbsp;&lt;/div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&#39;48e5b762-5861-11ed-9b6a-0242ac120002&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=9;fillColor=#d5e8d4;strokeColor=#00FF00;" parent="f0I6HTxJ2aiZMTKFPbjw-12" edge="1" target="f0I6HTxJ2aiZMTKFPbjw-1">
-          <mxGeometry x="0.1585" y="-5" width="80" relative="1" as="geometry">
-            <mxPoint x="49.080000000000155" y="330" as="sourcePoint" />
-            <mxPoint x="-114.75333333333356" y="330" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f0I6HTxJ2aiZMTKFPbjw-20" value="return account(&lt;span style=&quot;text-align: left;&quot;&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;/span&gt;&lt;br&gt;, 0)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=9;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="393" y="222" as="sourcePoint" />
-            <mxPoint x="125.81034482758605" y="222" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f0I6HTxJ2aiZMTKFPbjw-22" value="&lt;span style=&quot;&quot;&gt;SELECT id, balance&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;FROM account&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;WHERE id = &#39;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=9;align=left;" parent="1" edge="1" source="f0I6HTxJ2aiZMTKFPbjw-12">
-          <mxGeometry x="0.8307" y="-9" width="80" relative="1" as="geometry">
-            <mxPoint x="557.8300000000004" y="278" as="sourcePoint" />
-            <mxPoint x="393.99666666666644" y="278" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f0I6HTxJ2aiZMTKFPbjw-23" value="return account(&lt;span style=&quot;text-align: left;&quot;&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;/span&gt;&lt;br&gt;, 100)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=9;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="393.6666666666665" y="316.5000000000002" as="sourcePoint" />
-            <mxPoint x="677.5" y="316.5000000000002" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f0I6HTxJ2aiZMTKFPbjw-24" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;UPDATE account&lt;/span&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;SET balance = 1000&lt;br&gt;WHERE id = &#39;&lt;/span&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;/span&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;&#39;&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;align=left;fillColor=#f8cecc;strokeColor=#FF0000;" parent="1" edge="1" source="f0I6HTxJ2aiZMTKFPbjw-9">
-          <mxGeometry x="-0.8641" y="11" width="80" relative="1" as="geometry">
-            <mxPoint x="231" y="487" as="sourcePoint" />
-            <mxPoint x="393.5" y="487" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="f0I6HTxJ2aiZMTKFPbjw-12" value=":Transaction 2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="325" y="70" width="100" height="447" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
