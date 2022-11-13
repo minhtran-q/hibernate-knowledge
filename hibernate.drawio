@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-13T16:52:24.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="omDZYD_Fzm11QyhcpSrI" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-13T16:52:58.154Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="N0Bu9jiVMUjh2HhPodUz" version="20.5.1" type="github" pages="2">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
     <mxGraphModel dx="1185" dy="1762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -267,16 +267,16 @@
           <mxGeometry x="483" y="222.5" width="123" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nw-sr7UqMMYIFU0lqVoA-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="614" y="344" width="10" height="21" as="geometry" />
+          <mxGeometry x="609.5" y="344.5" width="10" height="21" as="geometry" />
         </mxCell>
         <mxCell id="nw-sr7UqMMYIFU0lqVoA-24" value="&lt;b&gt;&lt;i&gt;DB Transaction #3&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="491" y="341.5" width="123" height="26" as="geometry" />
+          <mxGeometry x="486.5" y="342" width="123" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nw-sr7UqMMYIFU0lqVoA-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="614" y="437" width="10" height="21" as="geometry" />
+          <mxGeometry x="609.5" y="431.5" width="10" height="21" as="geometry" />
         </mxCell>
         <mxCell id="nw-sr7UqMMYIFU0lqVoA-26" value="&lt;b&gt;&lt;i&gt;DB Transaction #4&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="491.5" y="434.5" width="123" height="26" as="geometry" />
+          <mxGeometry x="487" y="429" width="123" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
