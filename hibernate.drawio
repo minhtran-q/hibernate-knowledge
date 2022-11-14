@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T16:48:15.125Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sGC8DSbY380ZijunvWFj" version="20.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-14T16:48:54.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ZILGT_iMrX0tuSwaTSds" version="20.5.1" type="github" pages="5">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
     <mxGraphModel dx="1185" dy="1762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -282,7 +282,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pDyhrU8gLGG9G1nGW2id" name="Current transaction in CockroachDB">
-    <mxGraphModel dx="1831" dy="548" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1827" dy="548" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -521,6 +521,12 @@
         </mxCell>
         <mxCell id="RHWUzi_CKbemEY_CeLr5-47" value="&lt;b&gt;&lt;i&gt;DB Transaction #3&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="387" y="455" width="123" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RHWUzi_CKbemEY_CeLr5-48" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;&lt;b&gt;id:&amp;nbsp;&lt;/b&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;br&gt;&lt;b&gt;status: ACTIVE&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;size=18;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="639" y="331" width="152" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RHWUzi_CKbemEY_CeLr5-49" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;&lt;b&gt;id:&amp;nbsp;&lt;/b&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;br&gt;&lt;b&gt;status: INACTIVE&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;size=18;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="639" y="414" width="152" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
