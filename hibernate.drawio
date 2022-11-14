@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T16:46:40.780Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="NEC7muoSe1MCoaK1M5IG" version="20.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-14T16:48:15.125Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sGC8DSbY380ZijunvWFj" version="20.5.1" type="github" pages="5">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
     <mxGraphModel dx="1185" dy="1762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -509,6 +509,18 @@
         </mxCell>
         <mxCell id="RHWUzi_CKbemEY_CeLr5-41" value="&lt;b&gt;&lt;i&gt;DB Transaction #4&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="219" y="559" width="123" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RHWUzi_CKbemEY_CeLr5-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="381" y="379.5" width="10" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="RHWUzi_CKbemEY_CeLr5-43" value="&lt;b&gt;&lt;i&gt;DB Transaction #2&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="387" y="377" width="123" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RHWUzi_CKbemEY_CeLr5-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="381" y="457.5" width="10" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="RHWUzi_CKbemEY_CeLr5-47" value="&lt;b&gt;&lt;i&gt;DB Transaction #3&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="387" y="455" width="123" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
