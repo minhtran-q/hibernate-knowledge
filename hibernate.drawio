@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T11:23:40.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="EqQqG1r38OjG7lpvwMrL" version="20.5.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-11-17T11:24:01.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3zrpGlJj_eUFF-_Rb50M" version="20.5.3" type="github" pages="10">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
     <mxGraphModel dx="1662" dy="1894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -538,7 +538,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="S_wq7DFXn5d11Ic8Z8Cb" name="Isolation">
-    <mxGraphModel dx="2272" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1632" dy="434" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -905,7 +905,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="oISIATrdCjJgVySy2U5y" name="Page-10">
+  <diagram id="oISIATrdCjJgVySy2U5y" name="Read Committed">
     <mxGraphModel dx="1517" dy="620" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
