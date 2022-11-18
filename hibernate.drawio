@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T15:56:55.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="TKcsEoAXNHJP27j2jcUh" version="20.5.3" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-11-18T15:57:40.503Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="X1O3QMouCgzC2ToqKjXs" version="20.5.3" type="github" pages="13">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
     <mxGraphModel dx="1662" dy="1894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -434,7 +434,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GUKaxxRUP0Re25A993J5" name="Problem">
-    <mxGraphModel dx="2272" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1527" dy="378" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -447,7 +447,7 @@
         <mxCell id="RHWUzi_CKbemEY_CeLr5-3" value="&lt;b&gt;:Txn_1&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="69" y="186" width="100" height="455" as="geometry" />
         </mxCell>
-        <mxCell id="RHWUzi_CKbemEY_CeLr5-11" value="&lt;b&gt;findById - &amp;lt;&lt;i&gt;Account&amp;gt;&lt;/i&gt;&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=2;strokeColor=#808080;" parent="RHWUzi_CKbemEY_CeLr5-3" edge="1">
+        <mxCell id="RHWUzi_CKbemEY_CeLr5-11" value="&lt;b&gt;GET&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=2;strokeColor=#808080;" parent="RHWUzi_CKbemEY_CeLr5-3" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="49" y="90" as="sourcePoint" />
             <mxPoint x="300.00000000000045" y="90" as="targetPoint" />
@@ -465,7 +465,7 @@
         <mxCell id="RHWUzi_CKbemEY_CeLr5-16" value="&lt;b&gt;&lt;i&gt;DB Transaction #1&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="219" y="284" width="123" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RHWUzi_CKbemEY_CeLr5-32" value="&lt;b&gt;findById - &amp;lt;&lt;i&gt;Account&amp;gt;&lt;/i&gt;&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=2;strokeColor=#808080;" parent="1" edge="1">
+        <mxCell id="RHWUzi_CKbemEY_CeLr5-32" value="&lt;b&gt;GET&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=2;strokeColor=#808080;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="619" y="370" as="sourcePoint" />
             <mxPoint x="368" y="370" as="targetPoint" />
@@ -477,7 +477,7 @@
         <mxCell id="RHWUzi_CKbemEY_CeLr5-34" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;&lt;b&gt;id:&amp;nbsp;&lt;/b&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;br&gt;&lt;b&gt;status: ACTIVE&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;size=18;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="200" y="331" width="152" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RHWUzi_CKbemEY_CeLr5-35" value="&lt;b&gt;save&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=2;strokeColor=#808080;" parent="1" edge="1">
+        <mxCell id="RHWUzi_CKbemEY_CeLr5-35" value="&lt;b&gt;PUT&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=2;strokeColor=#808080;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="619" y="446" as="sourcePoint" />
             <mxPoint x="368" y="446" as="targetPoint" />
@@ -486,10 +486,11 @@
         <mxCell id="RHWUzi_CKbemEY_CeLr5-37" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;&lt;b&gt;id:&amp;nbsp;&lt;/b&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;br&gt;&lt;b&gt;status: IN-PROGRESS&lt;br&gt;&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;size=18;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-54" y="512" width="152" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RHWUzi_CKbemEY_CeLr5-38" value="&lt;b&gt;save&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=2;strokeColor=#808080;" parent="1" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="RHWUzi_CKbemEY_CeLr5-38" value="&lt;b&gt;PUT&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=2;strokeColor=#808080;" parent="1" edge="1">
+          <mxGeometry x="0.004" width="80" relative="1" as="geometry">
             <mxPoint x="119" y="549" as="sourcePoint" />
             <mxPoint x="370.00000000000045" y="549" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RHWUzi_CKbemEY_CeLr5-39" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;&lt;b&gt;id:&amp;nbsp;&lt;/b&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;br&gt;&lt;b&gt;status: IN-PROGRESS&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;size=18;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
