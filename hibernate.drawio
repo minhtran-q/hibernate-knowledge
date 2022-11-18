@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T18:04:51.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="D9drNkVugjqTX70ja_02" version="20.5.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-11-18T18:22:31.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="dqK_6nYGz2EnNv8yYuKr" version="20.5.3" type="github" pages="15">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
     <mxGraphModel dx="1662" dy="1837" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -600,8 +600,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="iwxggiN8wVk7YBeciAw8" name="Optimistic Lock">
-    <mxGraphModel dx="2512" dy="737" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="iwxggiN8wVk7YBeciAw8" name="Optimistic Lock - Retry">
+    <mxGraphModel dx="2272" dy="737" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
