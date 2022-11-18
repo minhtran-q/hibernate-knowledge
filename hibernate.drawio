@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T11:24:01.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3zrpGlJj_eUFF-_Rb50M" version="20.5.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-11-18T10:41:07.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="7eizxovFCKU0ZAA3sWrz" version="20.5.3" type="github" pages="11">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
     <mxGraphModel dx="1662" dy="1894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -615,7 +615,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iwxggiN8wVk7YBeciAw8" name="Optimistic Lock">
-    <mxGraphModel dx="2272" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1632" dy="434" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -734,7 +734,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VtlxTGVCz9H87RbAukcX" name="Q&amp;A">
-    <mxGraphModel dx="1185" dy="662" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="362" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -902,11 +902,14 @@
         <mxCell id="ef2Fvu8Gt71jm7O6jogj-1" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;&lt;b&gt;id:&amp;nbsp;&lt;/b&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;br&gt;&lt;b&gt;status: ACTIVE&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;size=18;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="375" y="238" width="152" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="GemYZSrqK80_-2oOFzM5-1" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&amp;lt;Dirty read&amp;gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#006600;" vertex="1" parent="1">
+          <mxGeometry x="771.5" y="397" width="87" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="oISIATrdCjJgVySy2U5y" name="Read Committed">
-    <mxGraphModel dx="1517" dy="620" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1320" dy="511" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -982,6 +985,14 @@
         <mxCell id="vftz6fhT-cOvMxp0IO5x-40" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;&lt;b&gt;id:&amp;nbsp;&lt;/b&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;br&gt;&lt;b&gt;status: ACTIVE&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;size=18;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="385" y="248" width="152" height="70" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gZmYeXOQH3sxaQvWorbA" name="Repeatable read">
+    <mxGraphModel dx="920" dy="511" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
