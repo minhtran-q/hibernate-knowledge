@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T16:08:17.438Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ZSioi0LEV130vtX0XV9R" version="20.5.3" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-11-18T16:08:30.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="x7-HIbaASpQAnaID5ZVC" version="20.5.3" type="github" pages="13">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
     <mxGraphModel dx="1662" dy="1894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -586,13 +586,13 @@
           <mxGeometry x="381" y="512" width="152" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zW6JyYkvCifzCzdvWJE3-24" value="&lt;b&gt;&lt;i&gt;DB Transaction #2&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="544" y="394" width="123" height="26" as="geometry" />
+          <mxGeometry x="701" y="400" width="123" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zW6JyYkvCifzCzdvWJE3-27" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;&lt;b&gt;id:&amp;nbsp;&lt;/b&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;br&gt;&lt;b&gt;status: ACTIVE&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;size=18;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="734" y="331" width="152" height="70" as="geometry" />
+          <mxGeometry x="722" y="317" width="152" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zW6JyYkvCifzCzdvWJE3-28" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;&lt;b&gt;id:&amp;nbsp;&lt;/b&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;br&gt;&lt;b&gt;status: INACTIVE&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;size=18;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="734" y="414" width="152" height="70" as="geometry" />
+          <mxGeometry x="722" y="438" width="152" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zW6JyYkvCifzCzdvWJE3-8" value="&lt;b&gt;&lt;i&gt;DB Transaction #1&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-79" y="396.5" width="123" height="26" as="geometry" />
