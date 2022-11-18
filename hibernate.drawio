@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T14:32:04.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JDRmrdoVTS8hgVRxO99q" version="20.5.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-11-18T14:33:42.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="iN3pVL_Q1TkuHy6U0iV-" version="20.5.3" type="github" pages="12">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
     <mxGraphModel dx="1662" dy="1894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -917,10 +917,10 @@
           <mxGeometry x="642" y="196" width="115" height="510" as="geometry" />
         </mxCell>
         <mxCell id="vftz6fhT-cOvMxp0IO5x-22" value="&lt;font color=&quot;#808080&quot;&gt;&lt;b&gt;BEGIN&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="vftz6fhT-cOvMxp0IO5x-21">
-          <mxGeometry x="55" y="206" width="60" height="30" as="geometry" />
+          <mxGeometry x="55" y="194" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vftz6fhT-cOvMxp0IO5x-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="vftz6fhT-cOvMxp0IO5x-21">
-          <mxGeometry x="80" y="236" width="10" height="245" as="geometry" />
+          <mxGeometry x="80" y="224" width="10" height="257" as="geometry" />
         </mxCell>
         <mxCell id="vftz6fhT-cOvMxp0IO5x-24" value="&lt;font color=&quot;#808080&quot;&gt;&lt;b&gt;END&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="vftz6fhT-cOvMxp0IO5x-21">
           <mxGeometry x="55" y="485" width="60" height="30" as="geometry" />
@@ -977,7 +977,7 @@
           <mxGeometry x="-109" y="503" width="123" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vftz6fhT-cOvMxp0IO5x-38" value="&lt;b&gt;&lt;i&gt;DB Transaction #2&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="733" y="539" width="123" height="26" as="geometry" />
+          <mxGeometry x="736" y="548" width="123" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vftz6fhT-cOvMxp0IO5x-39" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;&lt;b&gt;id:&amp;nbsp;&lt;/b&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;br&gt;&lt;b&gt;status: ACTIVE&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;size=18;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="213" y="446.5" width="152" height="70" as="geometry" />
@@ -994,6 +994,9 @@
         </mxCell>
         <mxCell id="QCWzxDRkP5k_miOdwlyr-3" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;&lt;b&gt;id:&amp;nbsp;&lt;/b&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;br&gt;&lt;b&gt;status: &lt;font color=&quot;#ff0000&quot;&gt;INACTIVE&lt;/font&gt;&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;size=18;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="749" y="605" width="152" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="28w-ZT9Mw9YjZG9zE4fU-1" value="&lt;b style=&quot;color: rgb(0, 102, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Repeatable Read Isolation&lt;br&gt;status:&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;ACTIVE&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontColor=#006600;" vertex="1" parent="1">
+          <mxGeometry x="749" y="681" width="176" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
