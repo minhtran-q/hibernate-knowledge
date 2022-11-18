@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T18:35:04.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5CsBMRAaP1dS3yyA4UaS" version="20.5.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-11-18T18:36:00.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="YW0QDVmS30k2U3BUbN7y" version="20.5.3" type="github" pages="15">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
     <mxGraphModel dx="1662" dy="1837" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -601,7 +601,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iwxggiN8wVk7YBeciAw8" name="Optimistic Lock - Retry">
-    <mxGraphModel dx="2035" dy="662" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -719,7 +719,7 @@
             <mxPoint x="378" y="823" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u21yvLW_L6-Y0__ZK6i4-3" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;&lt;b&gt;id:&amp;nbsp;&lt;/b&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;br&gt;&lt;b&gt;status:&amp;nbsp;&lt;/b&gt;&lt;b&gt;IN-PROGRESS&lt;/b&gt;&lt;b&gt;&lt;br&gt;version: 1&lt;br&gt;&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;size=18;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="u21yvLW_L6-Y0__ZK6i4-3" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;&lt;b&gt;id:&amp;nbsp;&lt;/b&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;br&gt;&lt;b&gt;status:&amp;nbsp;&lt;/b&gt;&lt;b&gt;IN-PROGRESS&lt;/b&gt;&lt;b&gt;&lt;br&gt;version: 2&lt;br&gt;&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;size=18;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="393" y="788" width="159" height="74" as="geometry" />
         </mxCell>
       </root>
