@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T14:26:11.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tsZO13jACVhq8os_QUPw" version="20.5.3" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-11-20T14:26:59.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ZgxZNF7jr7vdYdBN1YN1" version="20.5.3" type="github" pages="16">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
     <mxGraphModel dx="1422" dy="1894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -815,7 +815,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Optimistic Lock and Spring Data JPA " id="7TJamQWlIiLRZ9UkDiE-">
-    <mxGraphModel dx="1422" dy="737" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="XJP0UcW3qt4TaqP62fS--0" />
         <mxCell id="XJP0UcW3qt4TaqP62fS--1" parent="XJP0UcW3qt4TaqP62fS--0" />
