@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T07:36:41.408Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="QGmnVrEiRTakYHsgY6Ol" version="20.6.0" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2022-11-24T07:37:16.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="99Bh1l85LJn__mozqBqy" version="20.6.0" type="github" pages="17">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
     <mxGraphModel dx="1422" dy="1894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1542,7 +1542,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xmh94vjCiK0eElfiO3TP" name="Subscription-Overall-Architecture">
-    <mxGraphModel dx="1422" dy="737" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="677" dy="351" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1579,10 +1579,10 @@
           <mxGeometry x="542.5" y="249" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rMouGxG02rx7dZT5XF51-14" value="&lt;b&gt;Messaging Adapters&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="498" y="368.5" width="146" height="45" as="geometry" />
+          <mxGeometry x="500" y="367" width="146" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rMouGxG02rx7dZT5XF51-15" value="&lt;b&gt;Integration Adapters&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="499.5" y="445" width="146" height="45" as="geometry" />
+          <mxGeometry x="500" y="443.5" width="146" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rMouGxG02rx7dZT5XF51-16" value="&lt;b&gt;Service&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="244.5" y="368" width="146" height="45" as="geometry" />
@@ -1597,7 +1597,7 @@
           <mxGeometry x="353" y="280" width="108" height="43" as="geometry" />
         </mxCell>
         <mxCell id="rMouGxG02rx7dZT5XF51-11" value="&lt;b&gt;Repositories&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="rMouGxG02rx7dZT5XF51-18">
-          <mxGeometry x="473" y="105" width="146" height="45" as="geometry" />
+          <mxGeometry x="472" y="103.5" width="146" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rMouGxG02rx7dZT5XF51-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="rMouGxG02rx7dZT5XF51-18">
           <mxGeometry x="21" y="390" width="620" height="97" as="geometry" />
