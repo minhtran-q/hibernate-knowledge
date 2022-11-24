@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T07:25:03.417Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="48suFThf4l9Ogmsg3gxq" version="20.6.0" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2022-11-24T07:25:27.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="8Qd3rWVrfw0HPOFBrHs4" version="20.6.0" type="github" pages="17">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
     <mxGraphModel dx="1422" dy="1894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1590,7 +1590,7 @@
         <mxCell id="rMouGxG02rx7dZT5XF51-17" value="&lt;b&gt;Controllers&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="60" y="312" width="85" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rMouGxG02rx7dZT5XF51-18" value="Subscription Service Code" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;dashed=1;glass=0;perimeterSpacing=5;swimlaneFillColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="rMouGxG02rx7dZT5XF51-18" value="Subscription Service Code" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;dashed=1;glass=0;perimeterSpacing=5;swimlaneFillColor=none;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="27" y="190" width="677" height="506" as="geometry" />
         </mxCell>
         <mxCell id="rMouGxG02rx7dZT5XF51-20" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Domain &lt;br&gt;Entities&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="rMouGxG02rx7dZT5XF51-18">
