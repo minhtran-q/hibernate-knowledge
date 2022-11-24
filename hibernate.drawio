@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T07:27:58.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sZbmeZTvHJKyhd2LXvkC" version="20.6.0" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2022-11-24T07:35:19.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="pOwbkire1fXz82PxwCx-" version="20.6.0" type="github" pages="17">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Case1">
     <mxGraphModel dx="1422" dy="1894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1579,10 +1579,10 @@
           <mxGeometry x="542.5" y="249" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rMouGxG02rx7dZT5XF51-14" value="&lt;b&gt;Messaging Adapters&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="499.5" y="390" width="146" height="45" as="geometry" />
+          <mxGeometry x="498" y="368.5" width="146" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rMouGxG02rx7dZT5XF51-15" value="&lt;b&gt;Integration Adapters&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="499.5" y="468" width="146" height="45" as="geometry" />
+          <mxGeometry x="499.5" y="445" width="146" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rMouGxG02rx7dZT5XF51-16" value="&lt;b&gt;Service&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="244.5" y="368" width="146" height="45" as="geometry" />
@@ -1597,7 +1597,7 @@
           <mxGeometry x="353" y="280" width="108" height="43" as="geometry" />
         </mxCell>
         <mxCell id="rMouGxG02rx7dZT5XF51-11" value="&lt;b&gt;Repositories&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="rMouGxG02rx7dZT5XF51-18">
-          <mxGeometry x="472.5" y="122" width="146" height="45" as="geometry" />
+          <mxGeometry x="473" y="105" width="146" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rMouGxG02rx7dZT5XF51-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="rMouGxG02rx7dZT5XF51-18">
           <mxGeometry x="21" y="390" width="620" height="97" as="geometry" />
@@ -1621,10 +1621,10 @@
           <mxGeometry x="742" y="235" width="185" height="312" as="geometry" />
         </mxCell>
         <mxCell id="rMouGxG02rx7dZT5XF51-34" value="&lt;b&gt;Database&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="762" y="312" width="146" height="45" as="geometry" />
+          <mxGeometry x="761.5" y="328" width="146" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rMouGxG02rx7dZT5XF51-35" value="&lt;b&gt;Message Broker&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="762" y="390" width="146" height="45" as="geometry" />
+          <mxGeometry x="761.5" y="406" width="146" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rMouGxG02rx7dZT5XF51-38" value="&lt;font color=&quot;#808080&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Resource Layer&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="804.5" y="249" width="60" height="30" as="geometry" />
