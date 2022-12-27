@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T10:47:47.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="P2rwHT3t2esyJ-MDanNA" version="20.7.4" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2022-12-27T10:48:21.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="2sf2X5UzP15WrZt0yQqu" version="20.7.4" type="github" pages="18">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Data migration">
     <mxGraphModel dx="3240" dy="1327" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -147,11 +147,17 @@
         <mxCell id="oN_3MYP0G9-ZLFkymLSV-13" value="&lt;b&gt;ConfigurationFileController&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="oKC61V8YWz7aIsDfYytF-1">
           <mxGeometry x="101" y="224" width="162" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="oN_3MYP0G9-ZLFkymLSV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oKC61V8YWz7aIsDfYytF-1" source="oN_3MYP0G9-ZLFkymLSV-15" target="oN_3MYP0G9-ZLFkymLSV-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oN_3MYP0G9-ZLFkymLSV-15" value="&lt;b&gt;DataProcessingService&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="oKC61V8YWz7aIsDfYytF-1">
           <mxGeometry x="338" y="403" width="162" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oN_3MYP0G9-ZLFkymLSV-17" value="&lt;b&gt;FileMetadataRepository&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="oKC61V8YWz7aIsDfYytF-1">
           <mxGeometry x="567" y="313" width="162" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oN_3MYP0G9-ZLFkymLSV-21" value="&lt;b&gt;FileRawDataRepository&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="oKC61V8YWz7aIsDfYytF-1">
+          <mxGeometry x="567" y="403" width="162" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
