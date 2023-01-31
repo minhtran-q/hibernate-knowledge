@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T09:59:16.017Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xoUprj-E9U9eadCYk0Ek" version="20.8.3" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-01-31T09:59:43.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="tqdbVczm8mYWTa3i0uUp" version="20.8.3" type="github" pages="21">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Data migration">
     <mxGraphModel dx="2284" dy="830" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1949,7 +1949,7 @@
         <mxCell id="Rycbz6m47n14OlHUhFVy-63" value="Persist Plan Fequency" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1165" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rycbz6m47n14OlHUhFVy-67" value="Throw exception" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="Rycbz6m47n14OlHUhFVy-67" value="Notify &lt;b&gt;ERROR &lt;/b&gt;event" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="766" y="674" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
