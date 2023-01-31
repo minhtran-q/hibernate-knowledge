@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T10:05:26.638Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JHVmDlpkBnvEyuKNjXIU" version="20.8.3" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-01-31T10:23:20.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="gsaH7N0tS95YnPr3kbKX" version="20.8.3" type="github" pages="21">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Data migration">
     <mxGraphModel dx="2284" dy="830" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1951,9 +1951,6 @@
         </mxCell>
         <mxCell id="Rycbz6m47n14OlHUhFVy-67" value="Notify ERROR event" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="766" y="694" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MqP9Ve5_dzMk-uSC92aW-1" value="Horizontal Container" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#808080;" vertex="1" parent="1">
-          <mxGeometry x="-218" y="159" width="1563" height="152" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
