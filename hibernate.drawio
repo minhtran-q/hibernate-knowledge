@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T10:24:45.649Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6Titk7V7N7MbWGAtEiAp" version="21.3.2" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2023-06-19T18:27:21.320Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="RctX2KGkbRb7_R7c2aT3" version="21.3.2" type="github" pages="19">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Data migration">
     <mxGraphModel dx="2524" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1628,6 +1628,35 @@
         </mxCell>
         <mxCell id="NHdt6eNHzV9JgQBvWebQ-20" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;&lt;b&gt;id:&amp;nbsp;&lt;/b&gt;48e5b762-5861-11ed-9b6a-0242ac120002&lt;br&gt;&lt;b&gt;status: ACTIVE&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;size=18;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="392" y="248" width="152" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PuMWInQbN9Co3kkzv_bA" name="Page-19">
+    <mxGraphModel dx="2524" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2wDZpkX5b8qe6EiuExpy-1" value="Service Activator" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-108" y="121" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2wDZpkX5b8qe6EiuExpy-5" value="Consumer Endpoint" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="121" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2wDZpkX5b8qe6EiuExpy-8" value="Message Handler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="121" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2wDZpkX5b8qe6EiuExpy-9" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="246" y="221" width="36" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2wDZpkX5b8qe6EiuExpy-10" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="90" y="111" width="36" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2wDZpkX5b8qe6EiuExpy-11" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-207" y="111" width="36" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2wDZpkX5b8qe6EiuExpy-12" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="411" y="121" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
