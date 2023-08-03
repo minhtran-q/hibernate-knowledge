@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-21T19:24:57.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_fjquUdMrTSpJk6jiLqg" version="21.3.2" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2023-08-03T10:38:10.596Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="1gUMmLbq83eFjon9KYD2" version="21.6.6" type="github" pages="19">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Data migration">
-    <mxGraphModel dx="2524" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2524" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1633,36 +1633,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PuMWInQbN9Co3kkzv_bA" name="Page-19">
-    <mxGraphModel dx="2524" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="591" dy="246" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2wDZpkX5b8qe6EiuExpy-1" value="Service Activator" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-108" y="121" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="2wDZpkX5b8qe6EiuExpy-5" value="Consumer Endpoint" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="121" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="2wDZpkX5b8qe6EiuExpy-8" value="Message Handler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="204" y="121" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="2wDZpkX5b8qe6EiuExpy-9" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="246" width="36" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2wDZpkX5b8qe6EiuExpy-10" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="90" y="111" width="36" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2wDZpkX5b8qe6EiuExpy-11" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="-207" y="111" width="36" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2wDZpkX5b8qe6EiuExpy-12" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="402" y="124" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="2wDZpkX5b8qe6EiuExpy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2wDZpkX5b8qe6EiuExpy-15" target="2wDZpkX5b8qe6EiuExpy-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2wDZpkX5b8qe6EiuExpy-15" value="Controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="217" width="120" height="60" as="geometry" />
+        <mxCell id="vLmA63aDH9UdN3vXTRoC-1" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="97" y="125" width="100" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
