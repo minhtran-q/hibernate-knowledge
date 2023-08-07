@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T09:06:10.300Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ySYaeh3Aye2tVYzCkyzF" version="21.6.6" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2023-08-07T09:06:32.841Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="fwEUkYtZQAr5uBG5vpWq" version="21.6.6" type="github" pages="19">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Data migration">
     <mxGraphModel dx="2524" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1712,7 +1712,7 @@
             <mxPoint x="407" y="326.2068965517242" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NdzlxeQ3eez10s2a8H_E-28" value="throw business exception" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="NdzlxeQ3eez10s2a8H_E-28" value="&lt;font color=&quot;#ff0000&quot;&gt;throw business exception&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;strokeColor=#FF0000;" edge="1" parent="1">
           <mxGeometry x="-0.6867" relative="1" as="geometry">
             <mxPoint x="589.9999999999998" y="391.2068965517242" as="sourcePoint" />
             <mxPoint x="46.81034482758628" y="391.2068965517242" as="targetPoint" />
