@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T08:37:41.576Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="eDM9S8WCuSOB6ewEKo9N" version="21.6.7" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2023-08-11T09:09:03.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ubR-LXccgC2h_xacn-lB" version="21.6.7" type="github" pages="22">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Data migration">
     <mxGraphModel dx="2524" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1633,7 +1633,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PuMWInQbN9Co3kkzv_bA" name="Page-19">
-    <mxGraphModel dx="1674" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1756,7 +1756,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pI5nf0sxqbmL0DKtpV86" name="Page-20">
-    <mxGraphModel dx="3425" dy="1215" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3056" dy="1215" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2105,15 +2105,44 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5MaHB58q8v06m2uxCDGe" name="Page-22">
-    <mxGraphModel dx="1674" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="p_rhCQBxiQG7pybfzwFC-2" value=":Admin UI Tool" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="201" y="147" width="100" height="300" as="geometry" />
+        <mxCell id="omKylAISSZiBs4kfljke-1" value=":DataMigrationWebSocketHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="723" y="147" width="217" height="679" as="geometry" />
         </mxCell>
-        <mxCell id="p_rhCQBxiQG7pybfzwFC-3" value=":DataMigrationWebSocketHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="461" y="147" width="231" height="300" as="geometry" />
+        <mxCell id="omKylAISSZiBs4kfljke-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="omKylAISSZiBs4kfljke-1">
+          <mxGeometry x="104" y="278" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="omKylAISSZiBs4kfljke-13" value="afterConnectionEstablished" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="omKylAISSZiBs4kfljke-12" parent="omKylAISSZiBs4kfljke-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="109" y="258" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="139" y="288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omKylAISSZiBs4kfljke-5" value=":Admin UI Tool" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="362" y="147" width="217" height="679" as="geometry" />
+        </mxCell>
+        <mxCell id="omKylAISSZiBs4kfljke-7" value="HTTP &quot;upgrade&quot; Request" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;strokeWidth=2;" edge="1" parent="1" target="omKylAISSZiBs4kfljke-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="470.5" y="251" as="sourcePoint" />
+            <mxPoint x="826.5" y="251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omKylAISSZiBs4kfljke-9" value="Response Handshake" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830.5" y="300.71428571428567" as="sourcePoint" />
+            <mxPoint x="470.92857142857133" y="300.71428571428567" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omKylAISSZiBs4kfljke-11" value="&lt;font color=&quot;#00994d&quot;&gt;WebSocket Connection&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=block;startFill=1;strokeColor=#00994D;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="470.92857142857133" y="370.71428571428567" as="sourcePoint" />
+            <mxPoint x="830.5" y="370.71428571428567" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
