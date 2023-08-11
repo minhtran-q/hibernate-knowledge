@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T09:09:03.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ubR-LXccgC2h_xacn-lB" version="21.6.7" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2023-08-11T09:16:33.687Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="KnbPi1cE3V630PndVDxY" version="21.6.7" type="github" pages="22">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Data migration">
     <mxGraphModel dx="2524" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2113,13 +2113,13 @@
           <mxGeometry x="723" y="147" width="217" height="679" as="geometry" />
         </mxCell>
         <mxCell id="omKylAISSZiBs4kfljke-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="omKylAISSZiBs4kfljke-1">
-          <mxGeometry x="104" y="278" width="10" height="40" as="geometry" />
+          <mxGeometry x="104" y="329" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="omKylAISSZiBs4kfljke-13" value="afterConnectionEstablished" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="omKylAISSZiBs4kfljke-12" parent="omKylAISSZiBs4kfljke-1">
+        <mxCell id="omKylAISSZiBs4kfljke-13" value="store(fileId, webSocketSession)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="omKylAISSZiBs4kfljke-12" parent="omKylAISSZiBs4kfljke-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="109" y="258" as="sourcePoint" />
+            <mxPoint x="109" y="309" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="139" y="288" />
+              <mxPoint x="139" y="339" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2143,6 +2143,9 @@
             <mxPoint x="470.92857142857133" y="370.71428571428567" as="sourcePoint" />
             <mxPoint x="830.5" y="370.71428571428567" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="omKylAISSZiBs4kfljke-14" value="afterConnectionEstablished" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=171;height=32;" vertex="1" parent="1">
+          <mxGeometry x="620" y="395" width="432" height="143" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
