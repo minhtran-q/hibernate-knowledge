@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T07:39:56.847Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="2ibSNsaEKwBntheJLCHu" version="21.6.7" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2023-08-17T11:20:30.605Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="9QBuugd2P0lqjOoXnWHS" version="21.6.7" type="github" pages="23">
   <diagram id="VH4cdz3XOALXzgAGvScP" name="Data migration">
     <mxGraphModel dx="2139" dy="632" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1763,7 +1763,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pI5nf0sxqbmL0DKtpV86" name="Page-20">
-    <mxGraphModel dx="3328" dy="1215" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3592" dy="1580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2017,10 +2017,11 @@
             <mxPoint x="1510.5" y="817.6666666666667" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XFJ0rp-UMD-_beLAG8Ws-18" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1" target="XFJ0rp-UMD-_beLAG8Ws-19">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="XFJ0rp-UMD-_beLAG8Ws-18" value="persistProduct(csvDto)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1" target="XFJ0rp-UMD-_beLAG8Ws-19">
+          <mxGeometry x="-0.0001" width="80" relative="1" as="geometry">
             <mxPoint x="87" y="932.0666666666667" as="sourcePoint" />
             <mxPoint x="1689" y="932.0666666666667" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XFJ0rp-UMD-_beLAG8Ws-23" value="&lt;font color=&quot;#00994d&quot;&gt;publishEvent(message, FileStatus.COMPLETED)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;strokeColor=#00994D;" parent="1" edge="1">
@@ -2115,7 +2116,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5MaHB58q8v06m2uxCDGe" name="Page-22">
-    <mxGraphModel dx="1895" dy="929" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1613" dy="929" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2238,7 +2239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ua0emNOUqWOvcJrHBdMN" name="Page-23">
-    <mxGraphModel dx="1611" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1371" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
