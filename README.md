@@ -14,7 +14,7 @@
   <summary>JPA vs ORM</summary>
   <br/>
   
-  **ORM:** Object Relational Mapping is concept/process of converting the data from Object oriented language to relational DB and vice versa. it's enables developers to map Java objects to database tables without having to create SQL queries.
+  **ORM:** Object Relational Mapping is concept/process of converting the data from Object oriented language to relational DB and vice versa. It's enables developers to map Java objects to database tables without having to create SQL queries.
   
   **JPA:** The Java Persistence API is a Java specification. JPA is now considered the standard approach for Object to Relational Mapping (ORM).
   
