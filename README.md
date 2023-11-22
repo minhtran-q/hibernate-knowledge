@@ -354,7 +354,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
   In reality, `@OneToMany` is practical only when many means few.
   
-  Note: If not careful, `@ManyToOne` can cause _n+1 select issue_
+  Note: If not careful, `@ManyToOne` can cause _n+1 select issue_.
   
   + Ref: https://vladmihalcea.com/the-best-way-to-map-a-onetomany-association-with-jpa-and-hibernate/  
   + Ref: https://thorben-janssen.com/best-practices-many-one-one-many-associations-mappings/#Avoid_the_mapping_of_huge_to-many_associations
