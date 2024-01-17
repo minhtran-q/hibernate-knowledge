@@ -785,6 +785,17 @@ Inheritance is one of the most important of object-oriented principles. But the 
 <details>
   <summary>Hibernate logging</summary>
   <br/>
+
+  ```
+  logging:
+    level:
+      org.hibernate.type.descriptor.sql: trace
+      logger.org.hibernate.SQL: debug
+      org.springframework.orm.jpa: debug
+      org.hibernate.engine.transaction.internal: debug
+      org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor: trace
+      org.springframework.transaction.interceptor.TransactionAspectSupport: debug
+  ```
   
   Ref: https://vladmihalcea.com/the-best-way-to-log-jdbc-statements/
   
