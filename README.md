@@ -901,32 +901,19 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
   If we select all employees in the database.
   ```
-  List<Employee> comments = entityManager.createNativeQuery("""
-      SELECT * 
-      FROM employee
-      """, Employee.class)
-  .getResultList(); 
+  List<Employee> employees = employeeRepository.findAll();
   ```
   And, laster, we decide to fetch associated `company` for each employee.
   
   ```
   for (Employee employee : employees) {
-      Long employeeId = ((Number) comment.get("employeeId")).longValue();
-
-      Company company = (String) entityManager.createNativeQuery("""
-          SELECT *
-          FROM company c
-          WHERE c.id = :employeeId
-          """, Company.class)
-      .setParameter("employeeId", employeeId)
-      .getSingleResult();
+    employee.getCompany();
   }
   ```
   _Query_
   
   ```
-  SELECT *
-  FROM employee
+  SELECT * FROM employee
 
   // trigger the N+1 query issue
   SELECT * FROM company c WHERE c.id = 1
