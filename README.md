@@ -961,12 +961,24 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <br/>
   
   In Hibernate, the collection type is called a _Bag_ if the elements in List are unordered. Otherwise, it's called a _List_. If we try to fetch multiple of these bags (_*ToMany_), Hibernate will throws a `MultipleBagFetchException`.
+
+  Example: 
+  ```
+  public interface ManagementRepository extends JpaRepository<ManagementEntity, Long> {
+
+    @EntityGraph(attributePaths = {"sessions", "users"})
+    ManagementEntity findById(Long managementId);
+
+  }
+  ```
+  In this example, `ManagementEntity` is one to many with `SessionEntity` and `UserEntity`. When we use the `@EntityGraph` to try to fetch early sessions and users. And we will create a multiple of bags then Hibernate will throws `MultipleBagFetchException`.
 </details>
 <details>
   <summary>Solution</summary>
   <br/>
-  
-  
+
+  + If the collections only contain a small number of elements, we can consider to use _`java.util.Set`_. Hibernate can then fetch multiple collections in 1 query.
+  + If at least one of collection contains a lot of elements, we have to split multiple queries to different parts (_in this case is 2 parts_).
 </details>
 
 ## Envers Event
