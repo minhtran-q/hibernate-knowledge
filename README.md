@@ -956,5 +956,17 @@ Inheritance is one of the most important of object-oriented principles. But the 
 </details>
 
 ### MultipleBagFetchException issues
+<details>
+  <summary>Root cause</summary>
+  <br/>
+  
+  In Hibernate, the collection type is called a _Bag_ if the elements in List are unordered. Otherwise, it's called a _List_. If we try to fetch multiple of these bags (_*ToMany_), Hibernate will throws a `MultipleBagFetchException`.
+</details>
+<details>
+  <summary>Solution</summary>
+  <br/>
+  
+  
+</details>
 
 ## Envers Event
