@@ -968,4 +968,6 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + If at least one of collection contains a lot of elements, we have to split multiple queries to different parts (_in this case is 2 parts_).
 </details>
 
+### @OneToOne lazy fetch issue
+
 ## Envers Event
