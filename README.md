@@ -835,7 +835,6 @@ Inheritance is one of the most important of object-oriented principles. But the 
 </details>
  
 ## Common pitfalls
-### The best Spring Data JpaRepository
 ### Avoid CascadeType.REMOVE for to-many associations
 <details>
   <summary>Root cause</summary>
