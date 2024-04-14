@@ -323,7 +323,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
   The best way to map a `@OneToOne` relationship is to use `@MapsId`. (use the `@JoinColumn` to customize the key name)
   
-  While the unidirectional `@OneToOne` association can be fetched lazily, the parent-side of a bidirectional `@OneToOne` association is not.
+  While the unidirectional `@OneToOne` association can be fetched lazily, the parent-side of a bidirectional `@OneToOne` association is not (child has `@JoinColumn`, parent - `mappedBy`).
   
   ```
   @Entity(name = "management")
