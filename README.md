@@ -968,5 +968,24 @@ Inheritance is one of the most important of object-oriented principles. But the 
 </details>
 
 ### @OneToOne lazy fetch issue
+<details>
+  <summary>Root cause</summary>
+  <br/>
+  
+  In unidirectional @OneToOne association, Hibernate supports loading lazy as expected. But in the unidirectional association, the parsent (child has `@JoinColumn`, parent - `mappedBy`) side is not. Even when specifying that the association is not `optional` and we have the FetchType.LAZY. 
 
+  
+  
+  Example: 
+  ```
+
+  ```
+  
+</details>
+<details>
+  <summary>Solution</summary>
+  <br/>
+
+
+</details>
 ## Envers Event
