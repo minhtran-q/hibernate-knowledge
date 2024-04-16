@@ -993,6 +993,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
 <details>
   <summary>Solution</summary>
   <br/>
+  
   + Use the unidirectional association and query from the child site
   + Share the Primary Key in a One-to-One Association
 </details>
