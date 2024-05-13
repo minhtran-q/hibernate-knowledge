@@ -787,6 +787,10 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <br/>
 
   ```
+  spring:
+    jpa:
+      show-sql: true
+      properties.hibernate.format_sql: true
   logging:
     level:
       org.hibernate.type.descriptor.sql: trace
