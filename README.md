@@ -1003,3 +1003,4 @@ Inheritance is one of the most important of object-oriented principles. But the 
 </details>
 
 ## Envers Event
+## Spring Data JPA
