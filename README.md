@@ -1017,11 +1017,11 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Information should return for Front-end</summary>
   <br/>
 
-  `number`: The current page number (zero-based).
-  `size`: The size of the page (number of elements per page).
-  `totalPages`: The total number of pages available.
-  `totalElements`: The total number of elements across all pages.
-  `isLast`: Checks if this is the last page.
+  + `number`: The current page number (zero-based).
+  + `size`: The size of the page (number of elements per page).
+  + `totalPages`: The total number of pages available.
+  + `totalElements`: The total number of elements across all pages.
+  + `isLast`: Checks if this is the last page.
   
 </details>
 <details>
