@@ -1014,7 +1014,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
 </details>
 <details>
-  <summary>Information should return</summary>
+  <summary>Information should return for Front-end</summary>
   <br/>
 
   `number`: The current page number (zero-based).
@@ -1027,6 +1027,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
 <details>
   <summary>Sorting</summary>
   <br/>
+  
   
   
 </details>
