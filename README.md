@@ -1014,6 +1014,17 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
 </details>
 <details>
+  <summary>Information should return</summary>
+  <br/>
+
+  `number`: The current page number (zero-based).
+  `size`: The size of the page (number of elements per page).
+  `totalPages`: The total number of pages available.
+  `totalElements`: The total number of elements across all pages.
+  `isLast`: Checks if this is the last page.
+  
+</details>
+<details>
   <summary>Sorting</summary>
   <br/>
   
