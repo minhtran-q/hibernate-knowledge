@@ -1005,6 +1005,21 @@ Inheritance is one of the most important of object-oriented principles. But the 
 ## Envers Event
 ## Spring Data JPA
 ### Pagination and Sorting using Spring Data JPA
+
+<details>
+  <summary>Page as Resource vs Page as Representation</summary>
+  <br/>
+
+  In high level we have following three options to build the pagination.
+
+  + `http://domainname/products?page=1` _(standard)_
+  + `http://domainname/products/page/1?sort_by=date`
+  + `http://domainname/products/date/page/1`
+
+  Keeping in mind that **a page isn’t a Resource**. We’ll use the standard way by encoding the paging information in a URI query.
+  
+</details>
+
 <details>
   <summary>Pagination</summary>
   <br/>
