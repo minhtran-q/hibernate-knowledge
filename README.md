@@ -1021,11 +1021,18 @@ Inheritance is one of the most important of object-oriented principles. But the 
 </details>
 
 <details>
-  <summary>Pagination</summary>
+  <summary>Pagination & Sorting example</summary>
   <br/>
 
-  
-  
+  ```
+  @GetMapping("/api/products")
+  public ResponseEntity<Page<Product>> getProducts(@PageableDefault(page = 1, size = 20, sort = "name", direction = Sort.Direction.DESC) Pageable pageable) {
+      Page<Product> products = productService.getProducts(pageable);
+      return ResponseEntity.ok(products);
+  }
+  ```
+
+  URL: `/api/products?page=2&size=50&sort=price&direction=ASC`
 </details>
 <details>
   <summary>Information should return for Front-end</summary>
@@ -1036,12 +1043,5 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + `totalPages`: The total number of pages available.
   + `totalElements`: The total number of elements across all pages.
   + `isLast`: Checks if this is the last page.
-  
-</details>
-<details>
-  <summary>Sorting</summary>
-  <br/>
-  
-  
   
 </details>
