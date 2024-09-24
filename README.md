@@ -353,6 +353,35 @@ Inheritance is one of the most important of object-oriented principles. But the 
   `@ManyToOne` might be just enough. It does not mean this should be the default option for every one-to-many database relationship.
   
   In reality, `@OneToMany` is practical only when many means few.
+
+  _Exmaple:_
+  ```
+  @Entity
+  public class Author {
+      @Id
+      @GeneratedValue(strategy = GenerationType.IDENTITY)
+      private Long id;
+  
+      @OneToMany(mappedBy = "author")
+      private List<Book> books = new ArrayList<>();
+  
+      // Getters and setters
+  }
+  ```
+  ```
+  @Entity
+  public class Book {
+      @Id
+      @GeneratedValue(strategy = GenerationType.IDENTITY)
+      private Long id;
+  
+      private Long authorId;
+  
+      @ManyToOne(fetch = FetchType.LAZY)
+      @JoinColumn(name = "author_id", insertable = false, updatable = false)
+      private Author author;
+  }
+  ```
   
   Note: If not careful, `@ManyToOne` can cause _n+1 select issue_.
   
