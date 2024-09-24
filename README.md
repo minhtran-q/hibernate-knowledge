@@ -513,9 +513,26 @@ Inheritance is one of the most important of object-oriented principles. But the 
   ```
   + Ref: https://thorben-janssen.com/spring-data-jpa-query-annotation/
 </details>
+
 <details>
-  <summary>Query spaces</summary>
+  <summary>Specifications</summary>
   <br/>
+
+  ```
+  public interface CustomerRepository extends CrudRepository<Customer, Long>, JpaSpecificationExecutor<Customer> {
+   …
+  }
+  ```
+
+  ```
+  public class BookSpecifications {
+
+    public static Specification<Book> hasTitle(String title) {
+        return (root, query, criteriaBuilder) -> 
+            criteriaBuilder.equal(root.get("title"), title);
+    }
+  }
+  ```
   
   + Ref: https://thorben-janssen.com/hibernate-query-spaces/
   
@@ -555,6 +572,8 @@ Inheritance is one of the most important of object-oriented principles. But the 
   Ref: https://thorben-janssen.com/native-queries-with-spring-data-jpa/
   
 </details>
+
+### 
   
 ### Store Procedure
 <details>
