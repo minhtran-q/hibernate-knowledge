@@ -446,6 +446,62 @@ Inheritance is one of the most important of object-oriented principles. But the 
 <details>
   <summary>ManyToMany</summary>
   <br/>
+
+  
+  ```
+    @Entity
+    public class Student {
+        @Id
+        @GeneratedValue(strategy = GenerationType.IDENTITY)
+        private Long id;
+    
+        private String name;
+    
+        @OneToMany(mappedBy = "student", fetch = FetchType.LAZY)
+        private List<StudentCourse> studentCourses = new ArrayList<>();
+    
+        // Getters and setters
+    }
+  ```
+
+  ```
+  @Entity
+  public class Course {
+      @Id
+      @GeneratedValue(strategy = GenerationType.IDENTITY)
+      private Long id;
+  
+      private String title;
+  
+      @OneToMany(mappedBy = "course", fetch = FetchType.LAZY)
+      private List<StudentCourse> studentCourses = new ArrayList<>();
+  
+      // Getters and setters
+  }
+  ```
+
+  ```
+    @Entity
+    public class StudentCourse {
+        @Id
+        @GeneratedValue(strategy = GenerationType.IDENTITY)
+        private Long id;
+    
+        @ManyToOne(fetch = FetchType.LAZY)
+        @JoinColumn(name = "student_id", insertable = false, updatable = false)
+        private Student student;
+    
+        @ManyToOne(fetch = FetchType.LAZY)
+        @JoinColumn(name = "course_id", insertable = false, updatable = false)
+        private Course course;
+    
+        // Additional fields if needed
+    
+        // Getters and setters
+    }
+  ```
+  
+  **Optimize peformance with** `@ManyToMany` (_verifying_)**:**
   
   You should never use a `List` if you model a `Many-to-Many` association. Instead of a `List`, we can use a `Set`.
   
