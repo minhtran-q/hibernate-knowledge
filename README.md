@@ -171,6 +171,8 @@ Inheritance is one of the most important of object-oriented principles. But the 
 <details>
   <summary>Single Table</summary>
   <br/>
+
+  All classes in the hierarchy are mapped to a single table. This is the _default_ strategy
   
   ![](images/single_table.png)
   
@@ -250,9 +252,9 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Identify type</summary>
   <br/>
   
-  + **Auto:** Let Hibernate pick one of the following strategies.
-  + **Identity:** Use an autoincremented database columns.
-  + **Sequence:** Use a database sequence.
+  + **Auto:** The persistence provider chooses the generation strategy.
+  + **Identity:** Relies on the database’s identity column to generate values.
+  + **Sequence:** Uses a database sequence to generate values.
   + **Table:** Use a database table to simulate a sequence (The table will be stored ids).
   
   Ref: https://thorben-janssen.com/primary-key-mappings-jpa-hibernate/
