@@ -406,6 +406,9 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
   In reality, `@OneToMany` is practical only when many means few.
 
+  + `@OneToMany` - **Default Fetch Type:** `FetchType.LAZY`
+  + `@ManyToOne` - **Default Fetch Type:** `FetchType.EAGER`
+
   _Exmaple:_
   ```
   @Entity
@@ -477,6 +480,38 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
   + Ref: https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/
   + Ref: https://thorben-janssen.com/best-practices-for-many-to-many-associations-with-hibernate-and-jpa/
+</details>
+
+<details>
+  <summary>insertable=false, updatable=false & separate field for the foreign key</summary>
+  <br/>
+
+  When you use `insertable=false`, `updatable=false` in a `@JoinColumn` and create a separate field for the foreign key, combined with lazy loading in relationship (`@OneToOne` or `@OneToMany`). In case, you have to get value of foreign key, by this way we don't need to load the associate entity. 
+
+  _Example:_
+
+```
+  @Entity
+  public class Order {
+      @Id
+      private Long id;
+  
+      @ManyToOne(fetch = FetchType.LAZY)
+      @JoinColumn(name = "customer_id", insertable = false, updatable = false)
+      private Customer customer;
+  
+      @Column(name = "customer_id")
+      private Long customerId;
+  
+      // getters and setters
+  }
+```
+
+```
+  Order order = entityManager.find(Order.class, orderId);
+  Long customerId = order.getCustomerId(); // This does not trigger loading of the Customer entity
+```
+
 </details>
 
 ### Cascade
