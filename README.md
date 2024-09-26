@@ -333,6 +333,40 @@ Inheritance is one of the most important of object-oriented principles. But the 
 <details>
   <summary>OneToOne</summary>
   <br/>
+
+  `User` and `Profile`. Each user has one profile, and each profile is associated with one user.
+  + **Default Fetch Type:** `FetchType.EAGER`
+
+  ```
+  @Entity
+  public class User {
+      @Id
+      @GeneratedValue(strategy = GenerationType.IDENTITY)
+      private Long id;
+  
+      private String username;
+  
+      @OneToOne(cascade = CascadeType.ALL)
+      @JoinColumn(name = "profile_id", referencedColumnName = "id")
+      private Profile profile;
+  }
+  ```
+
+  ```
+  @Entity
+  public class Profile {
+      @Id
+      @GeneratedValue(strategy = GenerationType.IDENTITY)
+      private Long id;
+  
+      private String bio;
+  
+      @OneToOne(mappedBy = "profile")
+      private User user;
+  }
+  ```
+
+  **Optimize peformance with** `@OneToOne` (_verifying_)**:**
   
   PK and FK columns are most often indexed, so sharing the PK can reduce the index footprint by half, which is desirable since you want to store all your indexes into memory to speed up index scanning. And EAGER fetching is bad.
   
