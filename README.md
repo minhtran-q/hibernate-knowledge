@@ -160,7 +160,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
 </details>
 <details>
-  <summary>MappedSuperclass</summary>
+  <summary>Mapped Superclass</summary>
   <br/>
   
   ![](images/mapped-super-class.png)
