@@ -290,7 +290,9 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
   Hibernate will create a sequence and select the next value of the sequence before inserting the record into the database.
   
-  Note: Only true with **Postgres** database.
+  _Note:_ 
+  + Only true with **Postgres** database.
+  + PostgreSQL uses the `SERIAL` or `BIGSERIAL` data type to create an auto-increment column. When you use `GenerationType.IDENTITY`, Hibernate will map this to a `SERIAL` column in PostgreSQL.
   
 </details>
 <details>
