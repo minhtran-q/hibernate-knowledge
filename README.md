@@ -162,6 +162,8 @@ Inheritance is one of the most important of object-oriented principles. But the 
 <details>
   <summary>Mapped Superclass</summary>
   <br/>
+
+  This strategy is used when you want to share common fields between multiple entities without creating a separate table for the superclass.
   
   ![](images/mapped-super-class.png)
   
