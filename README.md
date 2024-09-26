@@ -634,6 +634,8 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>Specifications</summary>
   <br/>
 
+  Spring Data JPA Specifications are used to create dynamic queries based on various criteria. They provide a way to build complex queries programmatically using the JPA Criteria API.
+
   ```
   public interface CustomerRepository extends CrudRepository<Customer, Long>, JpaSpecificationExecutor<Customer> {
    …
