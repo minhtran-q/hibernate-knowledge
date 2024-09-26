@@ -782,15 +782,9 @@ Inheritance is one of the most important of object-oriented principles. But the 
   _Note:_
   + `flush()` is called only after executing a JPQL query or a Criteria Query.
   + If you use default functions in `JpaRepository`, you must call the `flush()` function manually.
-  
+  + By default, the **FlushMode** is set to `AUTO`, and I recommend you **DON’T** change it.
+
   Ref: https://thorben-janssen.com/flushmode-in-jpa-and-hibernate/
-</details>
-<details>
-  <summary>Which mode should be used?</summary>
-  <br/>
-  
-  By default, the **FlushMode** is set to `AUTO`, and I recommend you **DON’T** change it.
-  
 </details>
 <details>
   <summary>flush() vs commit()</summary>
@@ -807,7 +801,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>What is projection?</summary>
   <br/>
   
-  
+  Projection allows to fetch only specific columns or attributes from an entity, rather than fetching the entire entity.
   
   Ref: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections
 </details>
@@ -828,10 +822,11 @@ Inheritance is one of the most important of object-oriented principles. But the 
   <summary>DTO projection type</summary>
   <br/>
 
-  + JPA’s DTOs
-  + Class-based Projections (DTOs)
-  + Interface-based Projections
-  
+  There are a few ways to implement projections in JPA:
+
+  + **JPA’s DTOs**
+  + **Class-based Projections (DTOs)**
+  + **Interface-based Projections**
 </details>
 <details>
   <summary>JPA’s DTOs</summary>
