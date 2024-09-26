@@ -446,7 +446,7 @@ Inheritance is one of the most important of object-oriented principles. But the 
 <details>
   <summary>ManyToMany</summary>
   <br/>
-
+  If you have an entity `StudentCourse` to represent the join table, you can still use `insertable=false` and `updatable=false` in the `@JoinColumn` annotations
   
   ```
     @Entity
