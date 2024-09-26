@@ -345,9 +345,12 @@ Inheritance is one of the most important of object-oriented principles. But the 
       private Long id;
   
       private String username;
-  
+
+      @Column("profile_id")
+      private Long profileId;
+
       @OneToOne(cascade = CascadeType.ALL)
-      @JoinColumn(name = "profile_id", referencedColumnName = "id")
+      @JoinColumn(name = "profile_id", insertable = false, updatable = false)
       private Profile profile;
   }
   ```
