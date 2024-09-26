@@ -23,6 +23,8 @@
 <details>
   <summary>JPA and Hibernate</summary>
   <br/>
+
+  JPA is a specification for accessing, managing, and persisting data between Java objects and relational databases. While Hibernate is a popular implementation of the JPA specification. It provides the actual functionality defined by JPA.
   
   ![](images/hibernate-jpa.png)
   
