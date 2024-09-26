@@ -103,7 +103,7 @@ A persistence context is a set of entity instances. Within the persistence conte
   
   State | Description | 
   --- | --- |
-  New or Transient | Transient entities exist in heap memory as normal Java objects. The persistent context does not track the changes done on them. It don't associcate with any **Session** and not mapped to any database table row.|
+  New or Transient | Transient entities exist in heap memory as normal Java objects. The persistent context does not track the changes done them. It don't associcate with any **Session** and not mapped to any database table row.|
   Persistent or Managed | A persistent entity is mapped to a specific database row. Hibernate’s current running **Session** is responsible for tracking all changes. |
   Detached | Detached entities have a representation in the database but these are currently not associcate with any **Session**. |
   Removed | Removed entities are entities that already exist in the database and will be deleted after flushing (commit) |
@@ -114,13 +114,22 @@ A persistence context is a set of entity instances. Within the persistence conte
 
 ### Automatic dirty checking
 <details>
-  <summary>Explain</summary>
+  <summary>How Automatic Dirty Checking Works?</summary>
   <br/>
+
+  + **Entity Tracking:** When you retrieve an entity from the database using a Hibernate session, Hibernate keeps a snapshot of the entity’s original state.
+  + **Modification Detection**: When we modify the entity’s properties within a transaction, Hibernate tracks these changes.
+  + **Session Flush:** When the session is flushed (either manually or automatically at the end of a transaction), Hibernate compares the current state of the entity with the original snapshot.
+  + **SQL Update Execution:** If Hibernate detects any changes it automatically generates and executes the necessary SQL UPDATE statements to synchronize the database.
   
   For managed entities, Hibernate can auto-detect incoming changes and schedule SQL UPDATES. This mechanism is called automatic dirty checking.
   
   ![](images/defaultflusheventflow.png)
   _At flush time (commit)_
+
+  _Benefits of Automatic Dirty Checking:_
+
+  + Ensures that the database always reflects the current state of your objects.
   
   Ref: https://www.codementor.io/@narendrasharma95ns/life-cycle-of-an-entity-object-dirty-checking-in-hibernate-lvh1dh5jz
   
