@@ -811,6 +811,9 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + _Instead of locking_ the data resources, each transaction proceeds and verifies at commit time.
 
   **Here’s how it works:**
+  
+  ![](images/optimistic_lock.png)
+  
   + **Versioning:** Each entity has a version field annotated with @Version. This field is automatically incremented with each update.
   + **Transaction Check:** When a transaction tries to commit, Hibernate checks the version field.  If the version has changed, it means another transaction has modified the data, and an exception is thrown.
 
