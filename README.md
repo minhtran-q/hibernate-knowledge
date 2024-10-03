@@ -825,6 +825,26 @@ Inheritance is one of the most important of object-oriented principles. But the 
 <details>
   <summary>Pessimistic locking</summary>
   <br/>
+
+  + Pessimistic locking is a strategy used in database management to handle concurrent access to data.
+  + The main idea is to lock the data as soon as a transaction starts to access it, preventing other transactions from making changes until the lock is released.
+
+  **How it works**
+  + When a transaction wants to read or write data, it requests a lock.
+  + **Read Lock (PESSIMISTIC_READ):** Other transactions can read the data but cannot modify or delete it.
+  + **Write Lock (PESSIMISTIC_WRITE):** Other transactions cannot read, modify, or delete the data.
+  + **Force Increment Lock (PESSIMISTIC_FORCE_INCREMENT):** Similar to a write lock but also increments a version number, useful for versioned entities.
+
+  **When to Use Pessimistic Locking**
+  + When multiple transactions frequently access the same data.
+  + When data consistency is important, such as in financial transactions.
+  + When transactions take a long time to complete, increasing the risk of conflicts.
+  
+</details>
+
+<details>
+  <summary>Optimistic locking vs Isolation</summary>
+  <br/>
   
 </details>
 
