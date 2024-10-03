@@ -192,13 +192,6 @@ Inheritance is one of the most important of object-oriented principles. But the 
   
 </details>
 <details>
-  <summary>Can Entity be an abstract class?</summary>
-  <br/>
-  
-  Perhaps, at the same time, it retains all the properties of the Entity, except that it cannot be directly initialized.
-  
-</details>
-<details>
   <summary>@DiscriminatorValue annotation in Hibernate</summary>
   <br/>
   
