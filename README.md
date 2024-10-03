@@ -813,8 +813,14 @@ Inheritance is one of the most important of object-oriented principles. But the 
 <details>
   <summary>Optimistic locking</summary>
   <br/>
+
+  + Optimistic locking in Hibernate is a concurrency control mechanism that assumes multiple transactions can complete without affecting each other.
+  + _Instead of locking_ the data resources, each transaction proceeds and verifies at commit time.
+
+  Here’s how it works:
+  + **Versioning:** Each entity has a version field annotated with @Version. This field is automatically incremented with each update.
+  + **Transaction Check:** When a transaction tries to commit, Hibernate checks the version field.  If the version has changed, it means another transaction has modified the data, and an exception is thrown.
   
-  + Ref: https://vladmihalcea.com/optimistic-vs-pessimistic-locking/
 </details>
 <details>
   <summary>Pessimistic locking</summary>
