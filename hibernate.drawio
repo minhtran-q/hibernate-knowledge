@@ -1348,7 +1348,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZkqYyktkZWUk3Db6R5A0" name="Page-16">
-    <mxGraphModel dx="2245" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2306" dy="671" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1361,26 +1361,26 @@
         <mxCell id="p5HtizRtLDw5YHD892w1-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="449" y="186.62" width="60" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="p5HtizRtLDw5YHD892w1-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-303" y="207.5" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="p5HtizRtLDw5YHD892w1-4" value="MMS UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-201" y="216.62" width="120" height="60" as="geometry" />
+          <mxGeometry x="-401" y="218.74" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p5HtizRtLDw5YHD892w1-7" value="Kong API Gateway" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Application_Gateway_Containers.svg;" vertex="1" parent="1">
-          <mxGeometry x="-9" y="214.5" width="68" height="64.24" as="geometry" />
+          <mxGeometry x="-222" y="216.62" width="68" height="64.24" as="geometry" />
         </mxCell>
         <mxCell id="p5HtizRtLDw5YHD892w1-8" value="Product Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="223" y="84" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p5HtizRtLDw5YHD892w1-9" value="&lt;span data-teams=&quot;true&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak&quot;&gt;Fulfilment service&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="381" y="86" width="120" height="60" as="geometry" />
+        <mxCell id="p5HtizRtLDw5YHD892w1-11" value="Keycloak" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-78" y="385" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p5HtizRtLDw5YHD892w1-11" value="KeyCloak" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-35" y="411" width="120" height="60" as="geometry" />
+        <mxCell id="p5HtizRtLDw5YHD892w1-12" value="&lt;span data-teams=&quot;true&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak&quot;&gt;Fulfilment Service&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="219" y="409" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p5HtizRtLDw5YHD892w1-12" value="&lt;span data-teams=&quot;true&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak&quot;&gt;Fulfilment service&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="216" y="294" width="120" height="60" as="geometry" />
+        <mxCell id="p5HtizRtLDw5YHD892w1-13" value="Vault" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-81" y="52.00000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p5HtizRtLDw5YHD892w1-14" value="Management Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-78" y="218.74" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
