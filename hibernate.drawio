@@ -1359,7 +1359,7 @@
           <mxGeometry x="808" y="331.12" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p5HtizRtLDw5YHD892w1-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="449" y="186.62" width="60" height="120" as="geometry" />
+          <mxGeometry x="350" y="182" width="60" height="120" as="geometry" />
         </mxCell>
         <mxCell id="p5HtizRtLDw5YHD892w1-4" value="MMS UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-401" y="218.74" width="120" height="60" as="geometry" />
