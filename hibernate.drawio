@@ -1348,12 +1348,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZkqYyktkZWUk3Db6R5A0" name="Page-16">
-    <mxGraphModel dx="2085" dy="1786" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2600" dy="2072" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="UyYCmAwOQx-k2UC6o8ze-20" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
-          <mxGeometry x="-191" y="-165" width="991" height="677" as="geometry" />
+          <mxGeometry x="-191" y="-29" width="991" height="541" as="geometry" />
         </mxCell>
         <mxCell id="UyYCmAwOQx-k2UC6o8ze-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6QQZy1HkOuZ4dgYU-8dv-1" target="UyYCmAwOQx-k2UC6o8ze-2">
           <mxGeometry relative="1" as="geometry" />
@@ -1397,9 +1397,6 @@
         <mxCell id="p5HtizRtLDw5YHD892w1-14" value="Management Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-81" y="197" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p5HtizRtLDw5YHD892w1-17" value="&lt;span data-teams=&quot;true&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak&quot;&gt;Mail Service&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-81" y="-32" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="UyYCmAwOQx-k2UC6o8ze-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p5HtizRtLDw5YHD892w1-18" target="UyYCmAwOQx-k2UC6o8ze-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1435,9 +1432,6 @@
         </mxCell>
         <mxCell id="UyYCmAwOQx-k2UC6o8ze-12" value="Active MQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="83" y="197" width="501" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UyYCmAwOQx-k2UC6o8ze-30" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="95" y="-147" width="102" height="75" as="geometry" />
         </mxCell>
         <mxCell id="UyYCmAwOQx-k2UC6o8ze-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p5HtizRtLDw5YHD892w1-14" target="p5HtizRtLDw5YHD892w1-19">
           <mxGeometry relative="1" as="geometry">
