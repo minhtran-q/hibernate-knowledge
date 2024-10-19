@@ -1389,7 +1389,7 @@
           <mxGeometry x="-98" y="197.94" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p5HtizRtLDw5YHD892w1-11" value="Keycloak" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-303" y="93.82" width="120" height="60" as="geometry" />
+          <mxGeometry x="-303" y="49.559999999999995" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p5HtizRtLDw5YHD892w1-12" value="&lt;span data-teams=&quot;true&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak&quot;&gt;Shipping Service&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="95" y="315" width="120" height="60" as="geometry" />
