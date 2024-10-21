@@ -839,6 +839,13 @@ Inheritance is one of the most important of object-oriented principles. But the 
   + When multiple transactions frequently access the same data.
   + When data consistency is important, such as in financial transactions.
   + When transactions take a long time to complete, increasing the risk of conflicts.
+</details>
+
+<details>
+  <summary>Pessimistic locking vs locking mechanism in database</summary>
+  <br/>
+
+  
   
 </details>
 
