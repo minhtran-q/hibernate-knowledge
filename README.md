@@ -562,6 +562,21 @@ Inheritance is one of the most important of object-oriented principles. But the 
   Order order = entityManager.find(Order.class, orderId);
   Long customerId = order.getCustomerId(); // This does not trigger loading of the Customer entity
 ```
+</details>
+
+<details>
+  <summary>Lazy vs eager load</summary>
+  <br/>
+
+  **Lazy Loading:**
+
+  + Lazy loading is a fetching strategy (such as collections or associations) not loaded immediately when the parent entity is loaded. The related entities are loaded only when they are accessed at runtime.
+  + `@OneToMany`, `@ManyToMany` default fetch type is lazy.
+
+  **Eager Loading:**
+  
+  + Eager loading is a fetching strategy loaded immediately along with the parent entity.
+  + `@ManyToOne`, `@OneToOne` default fetch type is eager.
 
 </details>
 
