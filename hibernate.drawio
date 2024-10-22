@@ -1660,8 +1660,8 @@
         <mxCell id="gDRJICngc3_12CVBq2eA-19" value="&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;strong&gt;User Initiates Login&lt;/strong&gt;: Requests access to a protected resource via the frontend.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Redirect to Keycloak&lt;/strong&gt;: Kong redirects the user to Keycloak for authentication.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;User Authenticates&lt;/strong&gt;: User enters credentials in Keycloak.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Authorization Code Returned&lt;/strong&gt;: Keycloak sends an authorization code back to the frontend.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Exchange Code for Tokens&lt;/strong&gt;: Frontend exchanges the code for access and ID tokens.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Send Token to Kong&lt;/strong&gt;: Frontend sends the access token with each request.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Kong Validates Token&lt;/strong&gt;: Kong verifies the token with Keycloak.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Access Resource&lt;/strong&gt;: If valid, the user is granted access to the protected resource.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Token Refresh&lt;/strong&gt;: If the access token expires, the refresh token can be used to obtain a new one.&lt;/font&gt;&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-554" y="97" width="666" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Eyg6sFOym9CywU9Nhpfa-3" value="declare info:&lt;br&gt;+ product service&lt;div&gt;+ marketplace service&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ inventory service&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ shipping service&lt;br&gt;+ marketplaces service&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-45" y="644" width="141" height="98" as="geometry" />
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-3" value="declare info:&lt;br&gt;&lt;div style=&quot;&quot;&gt;+ marketplace service&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-37" y="341" width="135" height="41" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-13" value="1, listing product&lt;br&gt;2. order -&amp;gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="307" y="160" width="105" height="41" as="geometry" />
@@ -1673,7 +1673,7 @@
           <mxGeometry x="410" y="588" width="127" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-22" value="Keycloack DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="321" y="296" width="72" height="68" as="geometry" />
+          <mxGeometry x="301" y="300" width="72" height="68" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eyg6sFOym9CywU9Nhpfa-24" target="-IP4EaaE-xf8wVESGwJ_-44">
           <mxGeometry relative="1" as="geometry" />
