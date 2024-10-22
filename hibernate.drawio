@@ -1467,7 +1467,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yTWA4gpebuT4jvAQTk_h" name="Page-17">
-    <mxGraphModel dx="2943" dy="1008" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2730" dy="811" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1493,15 +1493,15 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="380" y="554" />
-              <mxPoint x="380" y="869" />
+              <mxPoint x="380" y="817" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-51" target="-IP4EaaE-xf8wVESGwJ_-75" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="287" y="973" />
-              <mxPoint x="974" y="973" />
+              <mxPoint x="287" y="921" />
+              <mxPoint x="974" y="921" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1511,8 +1511,8 @@
         <mxCell id="gDRJICngc3_12CVBq2eA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="-IP4EaaE-xf8wVESGwJ_-51" target="gDRJICngc3_12CVBq2eA-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="287" y="1023" />
-              <mxPoint x="1196" y="1023" />
+              <mxPoint x="287" y="957" />
+              <mxPoint x="1196" y="957" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1556,18 +1556,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-64" value="Inventory Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="447" y="677" width="120" height="60" as="geometry" />
+          <mxGeometry x="447" y="649" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-65" value="Inventory DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="539" y="719" width="76" height="68" as="geometry" />
+          <mxGeometry x="539" y="691" width="76" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="-IP4EaaE-xf8wVESGwJ_-66" value="rest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-67" target="-IP4EaaE-xf8wVESGwJ_-71" edge="1">
+        <mxCell id="-IP4EaaE-xf8wVESGwJ_-66" value="auth/rest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-67" target="-IP4EaaE-xf8wVESGwJ_-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-67" value="Tiktok Adapter Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="949" y="166" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-IP4EaaE-xf8wVESGwJ_-68" value="rest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-69" target="-IP4EaaE-xf8wVESGwJ_-73" edge="1">
+        <mxCell id="-IP4EaaE-xf8wVESGwJ_-68" value="auth/rest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-69" target="-IP4EaaE-xf8wVESGwJ_-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-69" value="ChannelAdvisor Adapter Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1605,10 +1605,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-77" value="Shipping Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="456" y="839" width="120" height="60" as="geometry" />
+          <mxGeometry x="456" y="787" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-78" value="Shipping DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="539" y="881" width="76" height="71" as="geometry" />
+          <mxGeometry x="539" y="829" width="76" height="71" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-80" target="-IP4EaaE-xf8wVESGwJ_-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
