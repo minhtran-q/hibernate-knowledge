@@ -1471,13 +1471,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Eyg6sFOym9CywU9Nhpfa-11" value="User Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="447" y="247" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-43" target="-IP4EaaE-xf8wVESGwJ_-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-IP4EaaE-xf8wVESGwJ_-43" value="Trader/Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="-IP4EaaE-xf8wVESGwJ_-43" value="Trader" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-82" y="524" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-44" value="FE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1532,6 +1529,9 @@
           <mxGeometry x="449" y="524" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-44" target="-IP4EaaE-xf8wVESGwJ_-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-IP4EaaE-xf8wVESGwJ_-57" target="-IP4EaaE-xf8wVESGwJ_-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-57" value="Marketplace Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1617,7 +1617,7 @@
           <mxGeometry x="1191" y="524" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-81" value="Vault" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aws_backup_vault_lock;" parent="1" vertex="1">
-          <mxGeometry x="456" y="46" width="78" height="78" as="geometry" />
+          <mxGeometry x="468" y="240.5" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-82" value="Order DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="995" y="687" width="71" height="66" as="geometry" />
@@ -1632,7 +1632,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gDRJICngc3_12CVBq2eA-1" value="&lt;font color=&quot;#ff0000&quot;&gt;Follower&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aws_backup_vault_lock;" parent="1" vertex="1">
-          <mxGeometry x="609" y="46" width="78" height="78" as="geometry" />
+          <mxGeometry x="621" y="240.5" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="gDRJICngc3_12CVBq2eA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" parent="1" source="gDRJICngc3_12CVBq2eA-3" target="-IP4EaaE-xf8wVESGwJ_-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1663,20 +1663,23 @@
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-3" value="declare info:&lt;br&gt;+ product service&lt;div&gt;+ marketplace service&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ inventory service&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ shipping service&lt;br&gt;+ marketplaces service&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-45" y="644" width="141" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="Eyg6sFOym9CywU9Nhpfa-5" value="User DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="545" y="275" width="72" height="68" as="geometry" />
-        </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-13" value="1, listing product&lt;br&gt;2. order -&amp;gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="307" y="160" width="105" height="41" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-14" value="https/outh2&lt;br&gt;api gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="699" y="199.5" width="82" height="41" as="geometry" />
+          <mxGeometry x="1083" y="39" width="82" height="41" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-19" value="product status listing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="588" width="127" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-22" value="Keycloack DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="321" y="296" width="72" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eyg6sFOym9CywU9Nhpfa-24" target="-IP4EaaE-xf8wVESGwJ_-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-24" value="Admin (THG)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-82" y="418" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
