@@ -1516,6 +1516,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="gDRJICngc3_12CVBq2eA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="-IP4EaaE-xf8wVESGwJ_-51" target="-IP4EaaE-xf8wVESGwJ_-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="554" />
+              <mxPoint x="207" y="417" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDRJICngc3_12CVBq2eA-18" value="redirected " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gDRJICngc3_12CVBq2eA-17">
+          <mxGeometry x="0.1431" y="-3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-51" value="Kong API Gateway" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.gateway" parent="1" vertex="1">
           <mxGeometry x="262" y="529" width="50" height="50" as="geometry" />
         </mxCell>
@@ -1576,8 +1589,8 @@
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-70" value="webhook" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-71" target="-IP4EaaE-xf8wVESGwJ_-67" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1240" y="88" />
-              <mxPoint x="1009" y="88" />
+              <mxPoint x="1240" y="113" />
+              <mxPoint x="1009" y="113" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1587,8 +1600,8 @@
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-72" value="webhook" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-73" target="-IP4EaaE-xf8wVESGwJ_-69" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1247" y="305" />
-              <mxPoint x="1009" y="305" />
+              <mxPoint x="1247" y="328" />
+              <mxPoint x="1009" y="328" />
             </Array>
           </mxGeometry>
         </mxCell>
