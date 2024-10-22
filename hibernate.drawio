@@ -1467,7 +1467,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yTWA4gpebuT4jvAQTk_h" name="Page-17">
-    <mxGraphModel dx="2643" dy="1008" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2612" dy="848" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1514,19 +1514,6 @@
               <mxPoint x="287" y="1023" />
               <mxPoint x="1196" y="1023" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gDRJICngc3_12CVBq2eA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="-IP4EaaE-xf8wVESGwJ_-51" target="-IP4EaaE-xf8wVESGwJ_-52">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="207" y="554" />
-              <mxPoint x="207" y="417" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gDRJICngc3_12CVBq2eA-18" value="redirected " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gDRJICngc3_12CVBq2eA-17">
-          <mxGeometry x="0.1431" y="-3" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-51" value="Kong API Gateway" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.gateway" parent="1" vertex="1">
