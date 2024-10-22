@@ -1675,6 +1675,9 @@
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-19" value="product status listing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="588" width="127" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-22" value="Keycloack DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="321" y="296" width="72" height="68" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
