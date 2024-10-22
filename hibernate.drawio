@@ -1467,17 +1467,23 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yTWA4gpebuT4jvAQTk_h" name="Page-17">
-    <mxGraphModel dx="2284" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2706" dy="908" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-12" value="create user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eyg6sFOym9CywU9Nhpfa-11" target="-IP4EaaE-xf8wVESGwJ_-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-11" value="User Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447" y="247" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-43" target="-IP4EaaE-xf8wVESGwJ_-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-43" value="Trader/Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-82" y="524" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-IP4EaaE-xf8wVESGwJ_-44" value="UI" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="-IP4EaaE-xf8wVESGwJ_-44" value="FE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="524" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-45" value="authen" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-51" target="-IP4EaaE-xf8wVESGwJ_-52" edge="1">
@@ -1520,7 +1526,7 @@
           <mxGeometry x="262" y="529" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-52" value="Keycloack" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="227" y="387" width="120" height="60" as="geometry" />
+          <mxGeometry x="227" y="314" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-54" target="-IP4EaaE-xf8wVESGwJ_-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1529,9 +1535,6 @@
           <mxGeometry x="449" y="524" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-44" target="-IP4EaaE-xf8wVESGwJ_-51" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-IP4EaaE-xf8wVESGwJ_-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-57" target="-IP4EaaE-xf8wVESGwJ_-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-57" value="Marketplace Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1576,8 +1579,8 @@
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-70" value="webhook" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-71" target="-IP4EaaE-xf8wVESGwJ_-67" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1240" y="113" />
-              <mxPoint x="1009" y="113" />
+              <mxPoint x="1240" y="120" />
+              <mxPoint x="1009" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1595,7 +1598,7 @@
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-73" value="ChannelAdvisor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1191" y="374" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-IP4EaaE-xf8wVESGwJ_-74" value="consume" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-75" target="-IP4EaaE-xf8wVESGwJ_-62" edge="1">
+        <mxCell id="-IP4EaaE-xf8wVESGwJ_-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-75" target="-IP4EaaE-xf8wVESGwJ_-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-75" value="Order Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1605,19 +1608,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-77" value="Shipping Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="456" y="787" width="120" height="60" as="geometry" />
+          <mxGeometry x="447" y="787" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-78" value="Shipping DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="539" y="829" width="76" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="-IP4EaaE-xf8wVESGwJ_-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-80" target="-IP4EaaE-xf8wVESGwJ_-62" edge="1">
+        <mxCell id="-IP4EaaE-xf8wVESGwJ_-79" value="consume" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-80" target="-IP4EaaE-xf8wVESGwJ_-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-IP4EaaE-xf8wVESGwJ_-80" value="External services&lt;br&gt;(client)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="-IP4EaaE-xf8wVESGwJ_-80" value="External services&lt;br&gt;(THG)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1191" y="524" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-81" value="Vault" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aws_backup_vault_lock;" parent="1" vertex="1">
-          <mxGeometry x="468" y="200" width="78" height="78" as="geometry" />
+          <mxGeometry x="456" y="46" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-82" value="Order DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="995" y="687" width="71" height="66" as="geometry" />
@@ -1632,7 +1635,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gDRJICngc3_12CVBq2eA-1" value="&lt;font color=&quot;#ff0000&quot;&gt;Follower&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.aws_backup_vault_lock;" parent="1" vertex="1">
-          <mxGeometry x="621" y="200" width="78" height="78" as="geometry" />
+          <mxGeometry x="609" y="46" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="gDRJICngc3_12CVBq2eA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" parent="1" source="gDRJICngc3_12CVBq2eA-3" target="-IP4EaaE-xf8wVESGwJ_-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1658,7 +1661,25 @@
           <mxGeometry x="1326" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gDRJICngc3_12CVBq2eA-19" value="&lt;li&gt;&lt;strong&gt;User Initiates Login&lt;/strong&gt;: Requests access to a protected resource via the frontend.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Redirect to Keycloak&lt;/strong&gt;: Kong redirects the user to Keycloak for authentication.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;User Authenticates&lt;/strong&gt;: User enters credentials in Keycloak.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Authorization Code Returned&lt;/strong&gt;: Keycloak sends an authorization code back to the frontend.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Exchange Code for Tokens&lt;/strong&gt;: Frontend exchanges the code for access and ID tokens.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Send Token to Kong&lt;/strong&gt;: Frontend sends the access token with each request.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Kong Validates Token&lt;/strong&gt;: Kong verifies the token with Keycloak.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Access Resource&lt;/strong&gt;: If valid, the user is granted access to the protected resource.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Token Refresh&lt;/strong&gt;: If the access token expires, the refresh token can be used to obtain a new one.&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-109" y="237" width="550" height="150" as="geometry" />
+          <mxGeometry x="-339" y="177" width="550" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-3" value="declare info:&lt;br&gt;+ product service&lt;div&gt;+ marketplace service&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ inventory service&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ shipping service&lt;br&gt;+ marketplaces service&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="644" width="141" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-5" value="User DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="545" y="275" width="72" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-13" value="1, listing product&lt;br&gt;2. order -&amp;gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="307" y="160" width="105" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-14" value="https/outh2&lt;br&gt;api gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="699" y="199.5" width="82" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-18" value="admin -&amp;gt; marketplace" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="418" width="134" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-19" value="product status listing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="588" width="127" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
