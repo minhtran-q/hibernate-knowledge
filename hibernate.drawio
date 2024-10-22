@@ -1467,13 +1467,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yTWA4gpebuT4jvAQTk_h" name="Page-17">
-    <mxGraphModel dx="2706" dy="908" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2748" dy="813" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Eyg6sFOym9CywU9Nhpfa-12" value="create user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eyg6sFOym9CywU9Nhpfa-11" target="-IP4EaaE-xf8wVESGwJ_-52">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-11" value="User Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="447" y="247" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1526,7 +1523,7 @@
           <mxGeometry x="262" y="529" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-52" value="Keycloack" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="227" y="314" width="120" height="60" as="geometry" />
+          <mxGeometry x="227" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-54" target="-IP4EaaE-xf8wVESGwJ_-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1660,8 +1657,8 @@
         <mxCell id="gDRJICngc3_12CVBq2eA-14" value="&lt;font color=&quot;#ff0000&quot;&gt;ES&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1326" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDRJICngc3_12CVBq2eA-19" value="&lt;li&gt;&lt;strong&gt;User Initiates Login&lt;/strong&gt;: Requests access to a protected resource via the frontend.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Redirect to Keycloak&lt;/strong&gt;: Kong redirects the user to Keycloak for authentication.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;User Authenticates&lt;/strong&gt;: User enters credentials in Keycloak.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Authorization Code Returned&lt;/strong&gt;: Keycloak sends an authorization code back to the frontend.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Exchange Code for Tokens&lt;/strong&gt;: Frontend exchanges the code for access and ID tokens.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Send Token to Kong&lt;/strong&gt;: Frontend sends the access token with each request.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Kong Validates Token&lt;/strong&gt;: Kong verifies the token with Keycloak.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Access Resource&lt;/strong&gt;: If valid, the user is granted access to the protected resource.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Token Refresh&lt;/strong&gt;: If the access token expires, the refresh token can be used to obtain a new one.&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-339" y="177" width="550" height="150" as="geometry" />
+        <mxCell id="gDRJICngc3_12CVBq2eA-19" value="&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;strong&gt;User Initiates Login&lt;/strong&gt;: Requests access to a protected resource via the frontend.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Redirect to Keycloak&lt;/strong&gt;: Kong redirects the user to Keycloak for authentication.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;User Authenticates&lt;/strong&gt;: User enters credentials in Keycloak.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Authorization Code Returned&lt;/strong&gt;: Keycloak sends an authorization code back to the frontend.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Exchange Code for Tokens&lt;/strong&gt;: Frontend exchanges the code for access and ID tokens.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Send Token to Kong&lt;/strong&gt;: Frontend sends the access token with each request.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Kong Validates Token&lt;/strong&gt;: Kong verifies the token with Keycloak.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Access Resource&lt;/strong&gt;: If valid, the user is granted access to the protected resource.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Token Refresh&lt;/strong&gt;: If the access token expires, the refresh token can be used to obtain a new one.&lt;/font&gt;&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-554" y="97" width="666" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-3" value="declare info:&lt;br&gt;+ product service&lt;div&gt;+ marketplace service&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ inventory service&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ shipping service&lt;br&gt;+ marketplaces service&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-45" y="644" width="141" height="98" as="geometry" />
@@ -1674,9 +1671,6 @@
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-14" value="https/outh2&lt;br&gt;api gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="699" y="199.5" width="82" height="41" as="geometry" />
-        </mxCell>
-        <mxCell id="Eyg6sFOym9CywU9Nhpfa-18" value="admin -&amp;gt; marketplace" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="15" y="418" width="134" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-19" value="product status listing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="588" width="127" height="26" as="geometry" />
