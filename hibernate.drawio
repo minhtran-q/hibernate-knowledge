@@ -1622,12 +1622,6 @@
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-82" value="Order DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="995" y="687" width="71" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="-IP4EaaE-xf8wVESGwJ_-85" value="Tiktok Adapter DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="1034" y="204" width="71" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="-IP4EaaE-xf8wVESGwJ_-86" value="Channel Advisor DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="1033" y="418" width="73" height="72" as="geometry" />
-        </mxCell>
         <mxCell id="gDRJICngc3_12CVBq2eA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#ff0000;" parent="1" source="gDRJICngc3_12CVBq2eA-1" target="-IP4EaaE-xf8wVESGwJ_-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1669,8 +1663,8 @@
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-14" value="https/outh2&lt;br&gt;api gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1083" y="39" width="82" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="Eyg6sFOym9CywU9Nhpfa-19" value="&lt;font color=&quot;#009900&quot;&gt;Product status:&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;AVAILABLE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;LISTING&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;LISTED&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="440" y="579" width="101" height="70" as="geometry" />
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-19" value="&lt;font color=&quot;#009900&quot;&gt;product_status:&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;AVAILABLE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;LISTING&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;LISTING_FAILED&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;LISTED&lt;br&gt;DELIST&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="384" y="579" width="113" height="98" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-22" value="Keycloack DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="301" y="300" width="72" height="68" as="geometry" />
