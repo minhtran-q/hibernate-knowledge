@@ -1622,6 +1622,12 @@
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-82" value="Order DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="995" y="687" width="71" height="66" as="geometry" />
         </mxCell>
+        <mxCell id="-IP4EaaE-xf8wVESGwJ_-85" value="Tiktok Adapter DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="1034" y="204" width="71" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="-IP4EaaE-xf8wVESGwJ_-86" value="Channel Advisor DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="1033" y="418" width="73" height="72" as="geometry" />
+        </mxCell>
         <mxCell id="gDRJICngc3_12CVBq2eA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#ff0000;" parent="1" source="gDRJICngc3_12CVBq2eA-1" target="-IP4EaaE-xf8wVESGwJ_-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
