@@ -1467,7 +1467,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yTWA4gpebuT4jvAQTk_h" name="Page-17">
-    <mxGraphModel dx="2612" dy="1032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2098" dy="731" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1687,8 +1687,8 @@
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-28" value="&lt;div&gt;declare infor&lt;br&gt;+ declare supported marketplace&lt;/div&gt;&lt;div&gt;+ declare warehouse&lt;/div&gt;&lt;div&gt;+ declare shipping unit&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-296" y="426" width="193" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Eyg6sFOym9CywU9Nhpfa-29" value="order processing&lt;div&gt;+ receive notification from marketplace&lt;/div&gt;&lt;div&gt;+ setting warehouse&lt;/div&gt;&lt;div&gt;+ setting shipping&lt;/div&gt;&lt;div&gt;+ build order payload&lt;/div&gt;&lt;div&gt;+ send to external services (THG)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="725" y="59" width="224" height="98" as="geometry" />
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-29" value="order processing&lt;div&gt;+ receive notification from marketplace&lt;br&gt;+ store event payload&lt;/div&gt;&lt;div&gt;+ setting warehouse&lt;/div&gt;&lt;div&gt;+ setting shipping&lt;/div&gt;&lt;div&gt;+ build order payload&lt;/div&gt;&lt;div&gt;+ send to external services (THG)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="725" y="52" width="224" height="113" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-35" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-458" y="759" width="269" height="157" as="geometry" />
