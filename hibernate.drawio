@@ -1467,7 +1467,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yTWA4gpebuT4jvAQTk_h" name="Page-17">
-    <mxGraphModel dx="2352" dy="617" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2617" dy="726" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1546,6 +1546,9 @@
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-62" value="ActiveMQ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="677" y="524" width="396" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="w6VwERjzo2pllhPsYgqX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-IP4EaaE-xf8wVESGwJ_-64" target="-IP4EaaE-xf8wVESGwJ_-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-64" value="Inventory Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="447" y="649" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1577,14 +1580,11 @@
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-75" target="-IP4EaaE-xf8wVESGwJ_-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1flHhSC_TO2XN3BcwSSv-3" value="rest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-75" target="-IP4EaaE-xf8wVESGwJ_-64" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1flHhSC_TO2XN3BcwSSv-4" value="rest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-75" target="-IP4EaaE-xf8wVESGwJ_-77" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-75" value="Order Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="914" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w6VwERjzo2pllhPsYgqX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-IP4EaaE-xf8wVESGwJ_-77" target="-IP4EaaE-xf8wVESGwJ_-62">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-77" value="Shipping Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="447" y="787" width="120" height="60" as="geometry" />
@@ -1670,7 +1670,7 @@
           <mxGeometry x="968" y="218" width="278" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1flHhSC_TO2XN3BcwSSv-5" value="retry&amp;nbsp;&lt;div&gt;circuir-breaker&lt;br&gt;read timeout&lt;br&gt;connection timeout&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="789" y="608" width="117" height="62" as="geometry" />
+          <mxGeometry x="413" y="455" width="117" height="62" as="geometry" />
         </mxCell>
         <mxCell id="1flHhSC_TO2XN3BcwSSv-8" value="&lt;div&gt;&lt;b&gt;User Initiates Login:&lt;/b&gt; Requests access to a protected resource via the frontend.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Redirect to Keycloak:&lt;/b&gt; Kong redirects the user to Keycloak for authentication.&lt;/div&gt;&lt;div&gt;&lt;b&gt;User Authenticates: &lt;/b&gt;User enters credentials in Keycloak.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Authorization Code Returned:&lt;/b&gt; Keycloak sends an authorization code back to the frontend.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Exchange Code for Tokens:&lt;/b&gt; Frontend exchanges the code for access and ID tokens.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Send Token to Kong: &lt;/b&gt;Frontend sends the access token with each request.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Kong Validates Token:&lt;/b&gt; Kong verifies the token with Keycloak.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Access Resource:&lt;/b&gt; If valid, the user is granted access to the protected resource.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Token Refresh:&lt;/b&gt; If the access token expires, the refresh token can be used to obtain a new one.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-141" y="159" width="523" height="146" as="geometry" />
@@ -1749,12 +1749,6 @@
         </mxCell>
         <mxCell id="w6VwERjzo2pllhPsYgqX-4" value="Shared-Store HA Policy" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="711" y="499" width="139" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="w6VwERjzo2pllhPsYgqX-5" value="PUT /inventory/:id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="583" y="648" width="113" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="w6VwERjzo2pllhPsYgqX-6" value="GET /shipping/:id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="585" y="784" width="110" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
