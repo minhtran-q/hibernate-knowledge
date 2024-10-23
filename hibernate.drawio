@@ -1467,7 +1467,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yTWA4gpebuT4jvAQTk_h" name="Page-17">
-    <mxGraphModel dx="2726" dy="858" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1629" dy="432" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1556,7 +1556,9 @@
           <mxGeometry x="539" y="691" width="76" height="68" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-66" value="auth/rest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-67" target="-IP4EaaE-xf8wVESGwJ_-71" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-0.1429" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-67" value="Tiktok Adapter Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="949" y="166" width="120" height="60" as="geometry" />
@@ -1654,8 +1656,8 @@
         <mxCell id="gDRJICngc3_12CVBq2eA-14" value="&lt;font color=&quot;#ff0000&quot;&gt;ES&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1326" y="693" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Eyg6sFOym9CywU9Nhpfa-14" value="https/outh2&lt;br&gt;api gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1198.5" y="251" width="82" height="41" as="geometry" />
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-14" value="https/outh2&lt;br&gt;api gateway???" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1188.5" y="251" width="102" height="41" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-19" value="&lt;font color=&quot;#009900&quot;&gt;product_status:&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;AVAILABLE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;LISTING&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;LISTING_FAILED&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;LISTED&lt;br&gt;DELIST&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="384" y="579" width="113" height="98" as="geometry" />
@@ -1688,10 +1690,10 @@
           <mxGeometry x="1003" y="53" width="278" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1flHhSC_TO2XN3BcwSSv-5" value="retry&amp;nbsp;&lt;div&gt;circuir-breaker&lt;br&gt;read timeout&lt;br&gt;connection timeout&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="821" y="603" width="117" height="38" as="geometry" />
+          <mxGeometry x="789" y="608" width="117" height="62" as="geometry" />
         </mxCell>
         <mxCell id="1flHhSC_TO2XN3BcwSSv-8" value="&lt;div&gt;&lt;b&gt;User Initiates Login:&lt;/b&gt; Requests access to a protected resource via the frontend.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Redirect to Keycloak:&lt;/b&gt; Kong redirects the user to Keycloak for authentication.&lt;/div&gt;&lt;div&gt;&lt;b&gt;User Authenticates: &lt;/b&gt;User enters credentials in Keycloak.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Authorization Code Returned:&lt;/b&gt; Keycloak sends an authorization code back to the frontend.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Exchange Code for Tokens:&lt;/b&gt; Frontend exchanges the code for access and ID tokens.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Send Token to Kong: &lt;/b&gt;Frontend sends the access token with each request.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Kong Validates Token:&lt;/b&gt; Kong verifies the token with Keycloak.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Access Resource:&lt;/b&gt; If valid, the user is granted access to the protected resource.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Token Refresh:&lt;/b&gt; If the access token expires, the refresh token can be used to obtain a new one.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-103" y="154" width="523" height="146" as="geometry" />
+          <mxGeometry x="-141" y="159" width="523" height="146" as="geometry" />
         </mxCell>
         <mxCell id="JU6CVwNquXc5l4QpcI79-10" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-141" y="772" width="417" height="185" as="geometry" />
@@ -1756,8 +1758,14 @@
             <mxPoint x="254.10041265474555" y="36.206434316353885" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="JU6CVwNquXc5l4QpcI79-14" value="UUID-v7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JU6CVwNquXc5l4QpcI79-10">
+          <mxGeometry x="152" y="124.00000000000003" width="64" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="JU6CVwNquXc5l4QpcI79-13" value="Product DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="541" y="561" width="76" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="JU6CVwNquXc5l4QpcI79-15" value="IP whitelist&lt;div&gt;Rate limiter&lt;/div&gt;&lt;div&gt;Health check&lt;/div&gt;&lt;div&gt;Metrics Logging (prometheus)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="108" y="603" width="167" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
