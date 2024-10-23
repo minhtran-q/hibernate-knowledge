@@ -1467,7 +1467,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yTWA4gpebuT4jvAQTk_h" name="Page-17">
-    <mxGraphModel dx="2098" dy="731" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1720" dy="473" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1552,9 +1552,6 @@
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-62" value="ActiveMQ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="677" y="524" width="396" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-IP4EaaE-xf8wVESGwJ_-63" value="consume" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-64" target="-IP4EaaE-xf8wVESGwJ_-62" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-64" value="Inventory Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="447" y="649" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1598,11 +1595,14 @@
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-75" target="-IP4EaaE-xf8wVESGwJ_-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-IP4EaaE-xf8wVESGwJ_-75" value="Order Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="914" y="647" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-IP4EaaE-xf8wVESGwJ_-76" value="consume" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="-IP4EaaE-xf8wVESGwJ_-77" target="-IP4EaaE-xf8wVESGwJ_-62" edge="1">
+        <mxCell id="1flHhSC_TO2XN3BcwSSv-3" value="rest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-IP4EaaE-xf8wVESGwJ_-75" target="-IP4EaaE-xf8wVESGwJ_-64">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1flHhSC_TO2XN3BcwSSv-4" value="rest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-IP4EaaE-xf8wVESGwJ_-75" target="-IP4EaaE-xf8wVESGwJ_-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IP4EaaE-xf8wVESGwJ_-75" value="Order Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="914" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-77" value="Shipping Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="447" y="787" width="120" height="60" as="geometry" />
@@ -1620,7 +1620,7 @@
           <mxGeometry x="468" y="240.5" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-82" value="Order DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="995" y="687" width="71" height="66" as="geometry" />
+          <mxGeometry x="995" y="690" width="71" height="66" as="geometry" />
         </mxCell>
         <mxCell id="-IP4EaaE-xf8wVESGwJ_-85" value="Tiktok Adapter DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="1034" y="204" width="71" height="66" as="geometry" />
@@ -1639,32 +1639,23 @@
         </mxCell>
         <mxCell id="gDRJICngc3_12CVBq2eA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" parent="1" source="gDRJICngc3_12CVBq2eA-3" target="gDRJICngc3_12CVBq2eA-14" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1326" y="720" as="targetPoint" />
+            <mxPoint x="1326" y="723" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gDRJICngc3_12CVBq2eA-3" value="&lt;font color=&quot;#ff0000&quot;&gt;CDC&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1136" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="1136" y="693" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gDRJICngc3_12CVBq2eA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="gDRJICngc3_12CVBq2eA-7" target="gDRJICngc3_12CVBq2eA-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gDRJICngc3_12CVBq2eA-7" value="&lt;font color=&quot;#ff0000&quot;&gt;Search Service&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1136" y="815" width="120" height="60" as="geometry" />
+          <mxGeometry x="1136" y="818" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gDRJICngc3_12CVBq2eA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" parent="1" source="gDRJICngc3_12CVBq2eA-7" target="-IP4EaaE-xf8wVESGwJ_-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gDRJICngc3_12CVBq2eA-14" value="&lt;font color=&quot;#ff0000&quot;&gt;ES&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1326" y="690" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gDRJICngc3_12CVBq2eA-19" value="&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;strong&gt;User Initiates Login&lt;/strong&gt;: Requests access to a protected resource via the frontend.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Redirect to Keycloak&lt;/strong&gt;: Kong redirects the user to Keycloak for authentication.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;User Authenticates&lt;/strong&gt;: User enters credentials in Keycloak.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Authorization Code Returned&lt;/strong&gt;: Keycloak sends an authorization code back to the frontend.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Exchange Code for Tokens&lt;/strong&gt;: Frontend exchanges the code for access and ID tokens.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Send Token to Kong&lt;/strong&gt;: Frontend sends the access token with each request.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Kong Validates Token&lt;/strong&gt;: Kong verifies the token with Keycloak.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Access Resource&lt;/strong&gt;: If valid, the user is granted access to the protected resource.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;&lt;strong&gt;Token Refresh&lt;/strong&gt;: If the access token expires, the refresh token can be used to obtain a new one.&lt;/font&gt;&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-554" y="97" width="666" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="Eyg6sFOym9CywU9Nhpfa-3" value="declare info:&lt;br&gt;&lt;div style=&quot;&quot;&gt;+ marketplace service&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-37" y="341" width="135" height="41" as="geometry" />
-        </mxCell>
-        <mxCell id="Eyg6sFOym9CywU9Nhpfa-13" value="1, listing product&lt;br&gt;2. order -&amp;gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="307" y="160" width="105" height="41" as="geometry" />
+          <mxGeometry x="1326" y="693" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-14" value="https/outh2&lt;br&gt;api gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="834" y="7" width="82" height="41" as="geometry" />
@@ -1685,10 +1676,10 @@
           <mxGeometry x="-138" y="619" width="162" height="84" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-28" value="&lt;div&gt;declare infor&lt;br&gt;+ declare supported marketplace&lt;/div&gt;&lt;div&gt;+ declare warehouse&lt;/div&gt;&lt;div&gt;+ declare shipping unit&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-296" y="426" width="193" height="70" as="geometry" />
+          <mxGeometry x="-151" y="340" width="193" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Eyg6sFOym9CywU9Nhpfa-29" value="order processing&lt;div&gt;+ receive notification from marketplace&lt;br&gt;+ store event payload&lt;/div&gt;&lt;div&gt;+ setting warehouse&lt;/div&gt;&lt;div&gt;+ setting shipping&lt;/div&gt;&lt;div&gt;+ build order payload&lt;/div&gt;&lt;div&gt;+ send to external services (THG)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="725" y="52" width="224" height="113" as="geometry" />
+        <mxCell id="Eyg6sFOym9CywU9Nhpfa-29" value="order processing&lt;div&gt;+ receive notification from marketplace&lt;br&gt;+ store event payload&lt;/div&gt;&lt;div&gt;+ setting warehouse /rest&lt;/div&gt;&lt;div&gt;+ setting shipping /rest&lt;/div&gt;&lt;div&gt;+ build order payload&lt;/div&gt;&lt;div&gt;+ save order&lt;/div&gt;&lt;div&gt;+ send to external services (THG)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1316" y="132.5" width="224" height="127" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-35" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-458" y="759" width="269" height="157" as="geometry" />
@@ -1725,7 +1716,7 @@
           <mxGeometry x="-306" y="801" width="89" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-48" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="-121" y="791" width="60" height="80" as="geometry" />
+          <mxGeometry x="-110.5" y="780.5" width="60" height="101" as="geometry" />
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-49" value="&lt;font color=&quot;#009900&quot;&gt;order_status:&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;PENDING&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;ACCEPTED&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;PENDING_PAYMENT&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;PAID&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;SHIPPING&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;COMPLETED&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;CANCELLED&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1078" y="565" width="135" height="142" as="geometry" />
@@ -1735,6 +1726,12 @@
         </mxCell>
         <mxCell id="Eyg6sFOym9CywU9Nhpfa-53" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;webhook response to tiktok 200 or 400&lt;/span&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(31, 35, 41); font-family: &amp;quot;TikTok Text&amp;quot;; font-size: 14px; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot;&gt;1st Retry -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(31, 35, 41); font-family: &amp;quot;TikTok Text&amp;quot;; font-size: 14px; text-wrap: wrap;&quot;&gt;2 minutes after the initial push failure&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(31, 35, 41); font-family: &amp;quot;TikTok Text&amp;quot;; font-size: 14px; text-wrap: wrap; background-color: rgb(248, 248, 248);&quot;&gt;2nd Retry -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(248, 248, 248); color: rgb(31, 35, 41); font-family: &amp;quot;TikTok Text&amp;quot;; font-size: 14px; text-wrap: wrap;&quot;&gt;30 minutes after the 1st retry failure&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(31, 35, 41); font-family: &amp;quot;TikTok Text&amp;quot;; font-size: 14px; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot;&gt;3rd Retry -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(31, 35, 41); font-family: &amp;quot;TikTok Text&amp;quot;; font-size: 14px; text-wrap: wrap;&quot;&gt;3 hours after the 2nd retry failure&lt;/span&gt;&lt;span style=&quot;background-color: rgb(248, 248, 248); color: rgb(31, 35, 41); font-family: &amp;quot;TikTok Text&amp;quot;; font-size: 14px; text-wrap: wrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(31, 35, 41); font-family: &amp;quot;TikTok Text&amp;quot;; font-size: 14px; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot;&gt;4th Retry -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(31, 35, 41); font-family: &amp;quot;TikTok Text&amp;quot;; font-size: 14px; text-wrap: wrap;&quot;&gt;12 hours after the 3rd retry failure&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1003" y="53" width="278" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1flHhSC_TO2XN3BcwSSv-5" value="retry&amp;nbsp;&lt;div&gt;circuir-breaker&lt;br&gt;read timeout&lt;br&gt;connection timeout&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="821" y="603" width="117" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="1flHhSC_TO2XN3BcwSSv-8" value="&lt;div&gt;&lt;b&gt;User Initiates Login:&lt;/b&gt; Requests access to a protected resource via the frontend.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Redirect to Keycloak:&lt;/b&gt; Kong redirects the user to Keycloak for authentication.&lt;/div&gt;&lt;div&gt;&lt;b&gt;User Authenticates: &lt;/b&gt;User enters credentials in Keycloak.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Authorization Code Returned:&lt;/b&gt; Keycloak sends an authorization code back to the frontend.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Exchange Code for Tokens:&lt;/b&gt; Frontend exchanges the code for access and ID tokens.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Send Token to Kong: &lt;/b&gt;Frontend sends the access token with each request.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Kong Validates Token:&lt;/b&gt; Kong verifies the token with Keycloak.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Access Resource:&lt;/b&gt; If valid, the user is granted access to the protected resource.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Token Refresh:&lt;/b&gt; If the access token expires, the refresh token can be used to obtain a new one.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-103" y="154" width="523" height="146" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
