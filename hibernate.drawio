@@ -1467,7 +1467,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yTWA4gpebuT4jvAQTk_h" name="Page-17">
-    <mxGraphModel dx="2617" dy="726" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2352" dy="617" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1748,7 +1748,13 @@
           <mxGeometry x="108" y="603" width="167" height="64" as="geometry" />
         </mxCell>
         <mxCell id="w6VwERjzo2pllhPsYgqX-4" value="Shared-Store HA Policy" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="711" y="499" width="139" height="25" as="geometry" />
+          <mxGeometry x="629" y="591" width="139" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="w6VwERjzo2pllhPsYgqX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w6VwERjzo2pllhPsYgqX-9" target="-IP4EaaE-xf8wVESGwJ_-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6VwERjzo2pllhPsYgqX-9" value="Mail Notification Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="716" y="331" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
